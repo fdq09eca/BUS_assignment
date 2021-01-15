@@ -1,0 +1,150 @@
+@startuml BUS-B6-1
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+participant "User Manager"
+participant "Login"
+participant "User"
+participant "Local View"
+participant "Global View"
+participant "Overlay Options"
+
+activate User
+activate Login
+alt new user
+    User -> Login: Register
+    Login --> User: Account Created
+end 
+
+User --> Login: Autologin
+
+deactivate Login
+activate "Local View"
+User -> "Local View": select view
+note over User: Assume User has given the camera permission.
+"Local View" -> "Overlay Options": request surrounding overlay information
+activate "Overlay Options"
+loop while request device GPSPostion failed
+    "Overlay Options" --> "Map Data Handler": request device GPSPostion
+    activate "Map Data Handler"
+    "Map Data Handler" -> "Map Data Handler": get device GPS Position
+end
+"Map Data Handler" -> "Overlay Options": return GPSpostion
+deactivate "Map Data Handler"
+
+"Overlay Options" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" --> "Overlay Options": COVID related Data(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Options" -> "Overlay Information Aggregator": requestOverlayInformation(COVID related Data)
+activate "Overlay Information Aggregator"
+"Overlay Information Aggregator" --> "Overlay Options": AggreateInformation(COVID related Data)
+deactivate "Overlay Information Aggregator"
+
+"Overlay Options" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" --> "Overlay Options": ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+
+"Overlay Options" --> "Local View": Overlay surrounding Information Data
+"Local View" --> "User": Display overlay information
+
+User -> "Local View": Search Destination
+"Local View" -> "Search": request searchLocation(Destination)
+deactivate "Overlay Options"
+
+activate "Search"
+"Search" -> "Map Data Handler": requestGeoData(Destination)
+activate "Map Data Handler"
+"Map Data Handler" -> "Search": a list of possible locations geoData
+deactivate "Map Data Handler"
+"Search" --> "Global View": the most possible location geoData
+deactivate "Search"
+activate "Global View"
+"Global View" -> "Local View": request switch view
+"Local View" --> "Global View": accept switch view
+deactivate "Local View"
+"Global View" --> "Global View": Center screen to Destination (most possible location)
+"Global View" -> "Overlay Options": request Destination overlay information
+activate "Overlay Options"
+"Map Data Handler" -> "Overlay Options": return GPSpostion
+deactivate "Map Data Handler"
+
+"Overlay Options" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" --> "Overlay Options": COVID related Data(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Options" -> "Overlay Information Aggregator": requestOverlayInformation(COVID related Data)
+activate "Overlay Information Aggregator"
+"Overlay Information Aggregator" --> "Overlay Options": AggreateInformation(COVID related Data)
+deactivate "Overlay Information Aggregator"
+
+"Overlay Options" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" --> "Overlay Options": ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+
+"Overlay Options" --> "Global View": Overlay Destination Information Data
+deactivate "Overlay Options"
+"Global View" --> "User": display Destination overlay information
+
+"User" -> "Global View": request Navigation
+"Global View" -> "Navigation": requestNavigation\n(Destination)
+activate "Navigation"
+"Navigation" -> "Safe Route": requestSafeRoute\n(Destination)
+activate "Safe Route"
+"Safe Route" --> "Safe Route": possibleRoutes\n(Destination)
+"Safe Route" -> "Risk Rating": rate possible\n routes risk
+activate "Risk Rating"
+"Risk Rating" --> "Safe Route": list of \nrisk rated routes
+deactivate "Risk Rating"
+"Safe Route" --> "Navigation": sorted list of\nrisk rated routes
+deactivate "Safe Route"
+"Navigation" --> "Global View": default select the safest route and include the rest risk rated routes(Destination)
+"Global View" -> "User": Display navigation routes options
+"User" -> "Global View": Select Navigation route
+"Global View" --> "Navigation": Selected route
+
+"Global View"->"Local View": request switch view
+activate "Local View"
+"Local View" --> "Global View": accept switch view
+deactivate "Global View"
+loop while navigation ends
+    "Local View" -> "Navigation": request direction
+    "Navigation" --> "Navigation": calculate next direction
+    "Navigation" --> "Local View": next direction
+    "Local View" --> "User": overlay navigation arrow for direction
+end
+deactivate "Navigation"
+deactivate "Local View"
+deactivate "User"
+
+alt if user logged in
+    activate "Navigation"
+    "Navigation" -> "User": add navigation journey to user history 
+    activate "User"
+    deactivate "Navigation"
+    alt user agreed to privacy terms
+        activate "User Manager"
+        "User Manager" -> "User": request to record navigated journey
+        "User" --> "User Manager": accept request
+        loop 
+            "User Manager" -> "Risk Rating": check navigated journet every H hours
+            activate "Risk Rating"
+            break risk rate over threshold
+                deactivate "Risk Rating"
+                "User Manager" -> "User": request User current location
+                "User" --> "User Manager": User current location
+                "User Manager" -> "Map Data Handler": request closest COVID Test center with user current location
+                activate "Map Data Handler"
+                "Map Data Handler" --> "User Manager": closest COVID Test center GeoData
+                deactivate "Map Data Handler"
+                "User Manager" --> "User": Notification
+                deactivate "User Manager"
+                deactivate "User"
+            end
+        end
+    end
+end
+@enduml

@@ -5,6 +5,7 @@ participant "User Manager"
 participant "Login"
 participant "User"
 participant "Local View"
+participant "AR Engine"
 participant "Global View"
 participant "Overlay Options"
 
@@ -19,6 +20,7 @@ User --> Login: Autologin
 
 deactivate Login
 activate "Local View"
+activate "AR Engine"
 User -> "Local View": select view
 note over User: Assume User has given the camera permission.
 "Local View" -> "Overlay Options": request surrounding overlay information
@@ -46,10 +48,11 @@ activate "User Pins Moderation"
 "User Pins Moderation" --> "Overlay Options": ModeratedUserPinsFeed(GPS Position)
 deactivate "User Pins Moderation"
 
-"Overlay Options" --> "Local View": Overlay surrounding Information Data
-"Local View" --> "User": Display overlay information
+"Overlay Options" --> "AR Engine": overlay surrounding Information Data
+"AR Engine" --> "Local View": display overlay information
+"Local View" --> "User": display overlay information
 
-User -> "Local View": Search Destination
+User -> "Local View": search sestination
 "Local View" -> "Search": request searchLocation(Destination)
 deactivate "Overlay Options"
 
@@ -64,7 +67,8 @@ activate "Global View"
 "Global View" -> "Local View": request switch view
 "Local View" --> "Global View": accept switch view
 deactivate "Local View"
-"Global View" --> "Global View": Center screen to Destination (most possible location)
+deactivate "AR Engine"
+"Global View" --> "Global View": center screen to Destination (most possible location)
 "Global View" -> "Overlay Options": request Destination overlay information
 activate "Overlay Options"
 "Map Data Handler" -> "Overlay Options": return GPSpostion
@@ -108,16 +112,19 @@ deactivate "Safe Route"
 
 "Global View"->"Local View": request switch view
 activate "Local View"
+activate "AR Engine"
 "Local View" --> "Global View": accept switch view
 deactivate "Global View"
 loop while navigation ends
     "Local View" -> "Navigation": request direction
     "Navigation" --> "Navigation": calculate next direction
-    "Navigation" --> "Local View": next direction
+    "Navigation" --> "AR Engine": next direction
+    "AR Engine" --> "Local View": overly next direction
     "Local View" --> "User": overlay navigation arrow for direction
 end
 deactivate "Navigation"
 deactivate "Local View"
+deactivate "AR Engine"
 deactivate "User"
 
 alt if user logged in

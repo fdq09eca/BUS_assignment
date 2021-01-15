@@ -1,0 +1,224 @@
+@startuml BUS-B6-sqDia1
+
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+
+title
+    Safe route Navigation 
+end title
+hide unlinked
+
+participant "Notification"
+participant "Login"
+actor "User"
+participant "Local View"
+participant "AR Engine"
+participant "Global View"
+participant "Overlay Information"
+participant "Navigation"
+participant "Search"
+participant "Safe Route"
+participant "Risk Rating"
+participant "COVID Data Handler"
+participant "Map Data Handler"
+participant "User Pins Moderation"
+
+
+activate User
+activate Login
+alt new user
+    User -> Login: Register
+    Login --> User: Account Created
+end 
+
+User --> Login: Autologin
+
+deactivate Login
+activate "Local View"
+activate "AR Engine"
+User -> "Local View": default view
+note over User: Assume User has given the camera permission.
+"Local View" -> "Overlay Information": request surrounding overlay information
+loop while request device GPSPostion failed
+    "Local View" --> "Navigation": request device GPSPostion
+    activate "Navigation"
+    "Navigation" -> "Navigation": get device current GPS Position 
+end
+"Navigation" --> "Local View": return device current GPS Position
+deactivate "Navigation"
+
+
+"Local View" -> "Overlay Information": request overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" --> "Overlay Information": MapData(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" --> "Overlay Information": return CovidData(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" --> "Overlay Information": return ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" --> "AR Engine": overlay surrounding Information Data
+deactivate "Overlay Information"
+"AR Engine" --> "Local View": Generate AR objects
+"Local View" --> "User": display overlay information
+
+User -> "Local View": search Destination
+"Local View" -> "Search": request search Location(Destination)
+
+activate "Search"
+"Search" -> "Map Data Handler": requestGeoData(Destination)
+activate "Map Data Handler"
+"Map Data Handler" -> "Search": a list of possible locations geoData
+deactivate "Map Data Handler"
+"Search" --> "Global View": the most possible location geoData
+deactivate "Search"
+activate "Global View"
+"Global View" -> "Local View": request switch view
+"Local View" --> "Global View": accept switch view
+deactivate "Local View"
+deactivate "AR Engine"
+"Global View" --> "Global View": center screen to Destination (most possible location)
+"Global View" -> "Overlay Information": request Destination overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" --> "Overlay Information": Map Data(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" --> "Overlay Information": COVID related Data(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" --> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" --> "Global View": Overlay Destination Information Data
+deactivate "Overlay Information"
+
+"Global View" --> "User": display Destination overlay information
+
+"User" -> "Global View": request Navigation
+"Global View" -> "Navigation": requestNavigation\n(Destination)
+activate "Navigation"
+"Navigation" -> "Safe Route": requestSafeRoute\n(Destination)
+activate "Safe Route"
+"Safe Route" --> "Safe Route": possibleRoutes\n(Destination)
+"Safe Route" -> "Risk Rating": rate possible\n routes risk
+activate "Risk Rating"
+loop for each in possibleRoutes
+    "Risk Rating" -> "Overlay Information": request overlayInfo
+    activate "Overlay Information"
+
+    == Start requesting overlay information ==
+    "Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+    activate "Map Data Handler"
+    "Map Data Handler" --> "Overlay Information": Map Data(GPS Position)
+    deactivate "Map Data Handler"
+
+    "Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+    activate "COVID Data Handler"
+    "COVID Data Handler" --> "Overlay Information": COVID related Data(GPSpostion)
+    deactivate "COVID Data Handler"
+
+    "Overlay Information" -> "User Pins Moderation": requestData(GPS Position)
+    activate "User Pins Moderation"
+    "User Pins Moderation" --> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+    deactivate "User Pins Moderation"
+    == Finish requesting overlay information ==
+
+    "Overlay Information" --> "Risk Rating": Overlay Destination Information Data
+    deactivate "Overlay Information"
+    "Risk Rating" -->  "Risk Rating": calculateRiskRating(overlayInfo)
+"Risk Rating" --> "Safe Route": list of \nrisk rated routes
+deactivate "Risk Rating"
+"Safe Route" --> "Navigation": sorted list of\nrisk rated routes
+deactivate "Safe Route"
+"Navigation" --> "Global View": default select the safest route and include the rest risk rated routes(Destination)
+"Global View" --> "User": Display navigation routes options
+"User" -> "Global View": Select Navigation route
+"Global View" --> "Navigation": Selected route
+
+"Global View"->"Local View": request switch view
+activate "Local View"
+activate "AR Engine"
+"Local View" --> "Global View": accept switch view
+deactivate "Global View"
+loop while navigation
+    "Local View" -> "Navigation": request direction
+    "Navigation" --> "Navigation": calculate next direction
+    "Navigation" --> "AR Engine": next direction
+    "AR Engine" --> "Local View": overly next direction
+    "Local View" --> "User": overlay navigation arrow for direction
+end
+deactivate "Navigation"
+deactivate "AR Engine"
+deactivate "User"
+
+deactivate "Local View"
+
+alt if navigation completed and user logged in
+    "Local View" -> "Navigation": request navigated route  
+    activate "Local View"
+    activate "Navigation"
+    "Navigation" --> "Local View": return navigated route
+    deactivate "Navigation"
+    "Local View" --> "Local View": add navigated route to UserData
+    deactivate "Local View"
+    alt if user agreed to privacy terms
+        == Start monitoring navigation journey ==
+        "Notification" -> "Local View": request to monitoring navigated journey
+        activate "Notification"
+        activate "Local View"
+        "Local View" --> "Notification": accept request
+        loop for each day in N days
+            "Notification" -> "Risk Rating": check navigated journey every H hours
+            "Risk Rating" --> "Notification": feed navigated journey every H hours
+            activate "Risk Rating"
+            break risk rate over threshold
+                deactivate "Risk Rating"
+                "Notification" -> "Local View": request User current location
+                "Local View" --> "Notification": User current location
+                "Notification" -> "Local View": request closest COVID Test center with user current location
+                "Local View" --> "Notification": closest COVID Test center GeoData
+                "Notification" --> "Local View": Send Notification
+                "Local View" --> "User": Send Notification
+                deactivate "Local View"
+                deactivate "Notification"
+            end
+        end
+        == Finish monitoring navigation journey ==
+    end
+end
+
+' destroy "Notification"
+' destroy "Login"
+' destroy "User"
+' destroy "Local View"
+' destroy "AR Engine"
+' destroy "Global View"
+' destroy "Overlay Information"
+' destroy "Navigation"
+' destroy "Search"
+' destroy "Safe Route"
+' destroy "COVID Data Handler"
+' destroy "Map Data Handler"
+' destroy "User Pins Moderation"
+
+@enduml

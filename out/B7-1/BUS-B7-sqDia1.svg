@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="3170px" preserveAspectRatio="none" style="width:2547px;height:3170px;" version="1.1" viewBox="0 0 2547 3170" width="2547px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="368" x="1083" y="29.4023">Sequence Diagram - Safe route navigation</text><rect fill="#FFFFFF" height="342.416" style="stroke:#A80036;stroke-width:1.0;" width="10" x="101.5" y="2731.3945"/><rect fill="#FFFFFF" height="111.2422" style="stroke:#A80036;stroke-width:1.0;" width="10" x="184" y="129.6875"/><rect fill="#FFFFFF" height="2387.5332" style="stroke:#A80036;stroke-width:1.0;" width="10" x="322" y="129.6875"/><rect fill="#FFFFFF" height="811.0742" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="240.9297"/><rect fill="#FFFFFF" height="228.1738" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2289.0469"/><rect fill="#FFFFFF" height="64.6211" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2562.8418"/><rect fill="#FFFFFF" height="342.416" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2731.3945"/><rect fill="#FFFFFF" height="811.0742" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="240.9297"/><rect fill="#FFFFFF" height="228.1738" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="2289.0469"/><rect fill="#FFFFFF" height="1324.9746" style="stroke:#A80036;stroke-width:1.0;" width="10" x="918" y="993.3828"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="496.4141"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="1123.625"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="1719.1465"/><rect fill="#FFFFFF" height="78.6211" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="388.4824"/><rect fill="#FFFFFF" height="998.5586" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="1518.6621"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="2562.8418"/><rect fill="#FFFFFF" height="87.9316" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1677" y="905.4512"/><rect fill="#FFFFFF" height="579.2109" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1760.5" y="1563.2832"/><rect fill="#FFFFFF" height="432.3477" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1898.5" y="1665.5254"/><rect fill="#FFFFFF" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1898.5" y="2843.6367"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="627.6563"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="1254.8672"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="1850.3887"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="569.0352"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="934.7617"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="1196.2461"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="1791.7676"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="686.2773"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="1313.4883"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="1909.0098"/><rect fill="#FFFFFF" height="75.9316" style="stroke:#000000;stroke-width:2.0;" width="202.5" x="153" y="136.6875"/><rect fill="#FFFFFF" height="88.9316" style="stroke:#000000;stroke-width:2.0;" width="1137.5" x="544.5" y="349.8613"/><rect fill="#FFFFFF" height="176.8633" style="stroke:#000000;stroke-width:2.0;" width="1336.5" x="298.5" y="2333.3574"/><rect fill="#FFFFFF" height="621.9004" style="stroke:#000000;stroke-width:2.0;" width="1958.5" x="20" y="2524.2207"/><rect fill="#FFFFFF" height="489.6582" style="stroke:#000000;stroke-width:2.0;" width="1938.5" x="30" y="2649.4629"/><rect fill="#FFFFFF" height="313.1055" style="stroke:#000000;stroke-width:2.0;" width="1918.5" x="40" y="2775.7051"/><rect fill="#FFFFFF" height="193.1738" style="stroke:#000000;stroke-width:2.0;" width="599.5" x="50" y="2888.6367"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="106" x2="106" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="189" x2="189" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="326.5" x2="326.5" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="596.5" x2="596.5" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="824" x2="824" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="923" x2="923" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1281" x2="1281" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1462.5" x2="1462.5" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1682" x2="1682" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1765" x2="1765" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1903.5" x2="1903.5" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2128" x2="2128" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2282" x2="2282" y1="119.6875" y2="3163.1211"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2440" x2="2440" y1="119.6875" y2="3163.1211"/><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="93" x="60" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="67" y="108.7344">Notification</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="52" x="163" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="170" y="108.7344">Login</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="308.5" y="116.7344">User</text><ellipse cx="327" cy="50.1992" fill="#FEFECE" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M327,58.1992 L327,85.1992 M314,66.1992 L340,66.1992 M327,85.1992 L314,100.1992 M327,85.1992 L340,100.1992 " fill="none" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="85" x="554.5" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="561.5" y="108.7344">Local View</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="84" x="782" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="789" y="108.7344">AR Engine</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="94" x="876" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="883" y="108.7344">Global View</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="150" x="1206" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="1213" y="108.7344">Overlay Information</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="87" x="1419.5" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="1426.5" y="108.7344">Navigation</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="60" x="1652" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="1659" y="108.7344">Search</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="87" x="1722" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="1729" y="108.7344">Safe Route</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="90" x="1858.5" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="1865.5" y="108.7344">Risk Rating</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="151" x="2053" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="2060" y="108.7344">COVID Data Handler</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="136" x="2214" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="2221" y="108.7344">Map Data Handler</text><rect fill="#FEFECE" height="30.4883" style="stroke:#A80036;stroke-width:1.5;" width="160" x="2360" y="88.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="2367" y="108.7344">User Pins Moderation</text><rect fill="#FFFFFF" height="342.416" style="stroke:#A80036;stroke-width:1.0;" width="10" x="101.5" y="2731.3945"/><rect fill="#FFFFFF" height="111.2422" style="stroke:#A80036;stroke-width:1.0;" width="10" x="184" y="129.6875"/><rect fill="#FFFFFF" height="2387.5332" style="stroke:#A80036;stroke-width:1.0;" width="10" x="322" y="129.6875"/><rect fill="#FFFFFF" height="811.0742" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="240.9297"/><rect fill="#FFFFFF" height="228.1738" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2289.0469"/><rect fill="#FFFFFF" height="64.6211" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2562.8418"/><rect fill="#FFFFFF" height="342.416" style="stroke:#A80036;stroke-width:1.0;" width="10" x="592" y="2731.3945"/><rect fill="#FFFFFF" height="811.0742" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="240.9297"/><rect fill="#FFFFFF" height="228.1738" style="stroke:#A80036;stroke-width:1.0;" width="10" x="819" y="2289.0469"/><rect fill="#FFFFFF" height="1324.9746" style="stroke:#A80036;stroke-width:1.0;" width="10" x="918" y="993.3828"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="496.4141"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="1123.625"/><rect fill="#FFFFFF" height="291.7949" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1276" y="1719.1465"/><rect fill="#FFFFFF" height="78.6211" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="388.4824"/><rect fill="#FFFFFF" height="998.5586" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="1518.6621"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1458" y="2562.8418"/><rect fill="#FFFFFF" height="87.9316" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1677" y="905.4512"/><rect fill="#FFFFFF" height="579.2109" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1760.5" y="1563.2832"/><rect fill="#FFFFFF" height="432.3477" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1898.5" y="1665.5254"/><rect fill="#FFFFFF" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1898.5" y="2843.6367"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="627.6563"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="1254.8672"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2123.5" y="1850.3887"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="569.0352"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="934.7617"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="1196.2461"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2277" y="1791.7676"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="686.2773"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="1313.4883"/><rect fill="#FFFFFF" height="29.3105" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2435" y="1909.0098"/><path d="M153,136.6875 L215,136.6875 L215,143.6875 L205,153.6875 L153,153.6875 L153,136.6875 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="75.9316" style="stroke:#000000;stroke-width:2.0;" width="202.5" x="153" y="136.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="168" y="150.2559">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="230" y="149.3223">[new user]</text><polygon fill="#A80036" points="205,171.3086,195,175.3086,205,179.3086" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="199" x2="321" y1="175.3086" y2="175.3086"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="232.5" y="170.5664">Register</text><polygon fill="#A80036" points="310,200.6191,320,204.6191,310,208.6191" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="194" x2="316" y1="204.6191" y2="204.6191"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="206" y="199.877">Account Created</text><polygon fill="#A80036" points="200,236.9297,190,240.9297,200,244.9297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="194" x2="321" y1="240.9297" y2="240.9297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="62" x="224.5" y="236.1875">Autologin</text><polygon fill="#A80036" points="580,266.2402,590,270.2402,580,274.2402" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="332" x2="586" y1="270.2402" y2="270.2402"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="424" y="265.498">default view</text><path d="M168,283.2402 L168,308.2402 L486,308.2402 L486,293.2402 L476,283.2402 L168,283.2402 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M476,283.2402 L476,293.2402 L486,293.2402 L476,283.2402 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="297" x="174" y="300.8086">Assume User has given the camera permission.</text><polygon fill="#A80036" points="1269,330.8613,1279,334.8613,1269,338.8613" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1275" y1="334.8613" y2="334.8613"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="255" x="814" y="330.1191">request surrounding overlay information</text><path d="M544.5,349.8613 L618.5,349.8613 L618.5,356.8613 L608.5,366.8613 L544.5,366.8613 L544.5,349.8613 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="88.9316" style="stroke:#000000;stroke-width:2.0;" width="1137.5" x="544.5" y="349.8613"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="559.5" y="363.4297">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="226" x="633.5" y="362.4961">[while request device GPSPostion failed]</text><polygon fill="#A80036" points="1446,384.4824,1456,388.4824,1446,392.4824" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="602" x2="1452" y1="388.4824" y2="388.4824"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="165" x="947.5" y="383.7402">request device GPSPostion</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1468" x2="1510" y1="417.793" y2="417.793"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1510" x2="1510" y1="417.793" y2="430.793"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1469" x2="1510" y1="430.793" y2="430.793"/><polygon fill="#A80036" points="1479,426.793,1469,430.793,1479,434.793" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="195" x="1475" y="413.0508">get device current GPS Position</text><polygon fill="#A80036" points="613,463.1035,603,467.1035,613,471.1035" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="607" x2="1462" y1="467.1035" y2="467.1035"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="213" x="926" y="462.3613">return device current GPS Position</text><polygon fill="#A80036" points="1264,492.4141,1274,496.4141,1264,500.4141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1270" y1="496.4141" y2="496.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="174" x="852" y="491.6719">request overlay information</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="525.0693"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="525.0693" y2="525.0693"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="528.0693" y2="528.0693"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="264" x="1138" y="514.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="246" x="1144" y="530.9824">Start requesting overlay information</text><polygon fill="#A80036" points="2265,565.0352,2275,569.0352,2265,573.0352" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2271" y1="569.0352" y2="569.0352"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="1700.5" y="564.293">requestData(GPS Position)</text><polygon fill="#A80036" points="1297,594.3457,1287,598.3457,1297,602.3457" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2281" y1="598.3457" y2="598.3457"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="141" x="1713.5" y="593.6035">MapData(GPS Position)</text><polygon fill="#A80036" points="2111.5,623.6563,2121.5,627.6563,2111.5,631.6563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2117.5" y1="627.6563" y2="627.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="1627.25" y="622.9141">requestData(GPSpostion)</text><polygon fill="#A80036" points="1297,652.9668,1287,656.9668,1297,660.9668" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2127.5" y1="656.9668" y2="656.9668"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="186" x="1614.25" y="652.2246">return CovidData(GPSpostion)</text><polygon fill="#A80036" points="2423,682.2773,2433,686.2773,2423,690.2773" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2429" y1="686.2773" y2="686.2773"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="220" x="1750.5" y="681.5352">request UserPinsFeed(GPS Position)</text><polygon fill="#A80036" points="1297,711.5879,1287,715.5879,1297,719.5879" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2439" y1="715.5879" y2="715.5879"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="277" x="1724.5" y="710.8457">return ModeratedUserPinsFeed(GPS Position)</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="744.2432"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="744.2432" y2="744.2432"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="747.2432" y2="747.2432"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="273" x="1133.5" y="733.5879"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="255" x="1139.5" y="750.1563">Finish requesting overlay information</text><polygon fill="#A80036" points="840,784.209,830,788.209,840,792.209" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="834" x2="1280" y1="788.209" y2="788.209"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="237" x="936.5" y="783.4668">overlay surrounding Information Data</text><polygon fill="#A80036" points="613,813.5195,603,817.5195,613,821.5195" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="607" x2="818" y1="817.5195" y2="817.5195"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="126" x="647.5" y="812.7773">Generate AR objects</text><polygon fill="#A80036" points="343,842.8301,333,846.8301,343,850.8301" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="337" x2="591" y1="846.8301" y2="846.8301"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="376" y="842.0879">display overlay information</text><polygon fill="#A80036" points="580,872.1406,590,876.1406,580,880.1406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="332" x2="586" y1="876.1406" y2="876.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="118" x="403" y="871.3984">search Destination</text><polygon fill="#A80036" points="1665,901.4512,1675,905.4512,1665,909.4512" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1671" y1="905.4512" y2="905.4512"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="231" x="1024" y="900.709">request search Location(Destination)</text><polygon fill="#A80036" points="2265,930.7617,2275,934.7617,2265,938.7617" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1687" x2="2271" y1="934.7617" y2="934.7617"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="181" x="1891.5" y="930.0195">requestGeoData(Destination)</text><polygon fill="#A80036" points="1698,960.0723,1688,964.0723,1698,968.0723" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1692" x2="2281" y1="964.0723" y2="964.0723"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="223" x="1873" y="959.3301">a list of possible locations geoData</text><polygon fill="#A80036" points="939,989.3828,929,993.3828,939,997.3828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="933" x2="1681" y1="993.3828" y2="993.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="224" x="1193" y="988.6406">the most possible location geoData</text><polygon fill="#A80036" points="613,1018.6934,603,1022.6934,613,1026.6934" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="607" x2="917" y1="1022.6934" y2="1022.6934"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="698" y="1017.9512">request switch view</text><polygon fill="#A80036" points="906,1048.0039,916,1052.0039,906,1056.0039" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="597" x2="912" y1="1052.0039" y2="1052.0039"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="118" x="698.5" y="1047.2617">accept switch view</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="928" x2="970" y1="1081.3145" y2="1081.3145"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="970" x2="970" y1="1081.3145" y2="1094.3145"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="929" x2="970" y1="1094.3145" y2="1094.3145"/><polygon fill="#A80036" points="939,1090.3145,929,1094.3145,939,1098.3145" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="334" x="935" y="1076.5723">center screen to Destination (most possible location)</text><polygon fill="#A80036" points="1264,1119.625,1274,1123.625,1264,1127.625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="928" x2="1270" y1="1123.625" y2="1123.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="976.5" y="1118.8828">request Destination overlay information</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="1152.2803"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1152.2803" y2="1152.2803"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1155.2803" y2="1155.2803"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="264" x="1138" y="1141.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="246" x="1144" y="1158.1934">Start requesting overlay information</text><polygon fill="#A80036" points="2265,1192.2461,2275,1196.2461,2265,1200.2461" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2271" y1="1196.2461" y2="1196.2461"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="1700.5" y="1191.5039">requestData(GPS Position)</text><polygon fill="#A80036" points="1297,1221.5566,1287,1225.5566,1297,1229.5566" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2281" y1="1225.5566" y2="1225.5566"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="145" x="1711.5" y="1220.8145">Map Data(GPS Position)</text><polygon fill="#A80036" points="2111.5,1250.8672,2121.5,1254.8672,2111.5,1258.8672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2117.5" y1="1254.8672" y2="1254.8672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="1627.25" y="1250.125">requestData(GPSpostion)</text><polygon fill="#A80036" points="1297,1280.1777,1287,1284.1777,1297,1288.1777" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2127.5" y1="1284.1777" y2="1284.1777"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="200" x="1607.25" y="1279.4355">COVID related Data(GPSpostion)</text><polygon fill="#A80036" points="2423,1309.4883,2433,1313.4883,2423,1317.4883" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2429" y1="1313.4883" y2="1313.4883"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="220" x="1750.5" y="1308.7461">request UserPinsFeed(GPS Position)</text><polygon fill="#A80036" points="1297,1338.7988,1287,1342.7988,1297,1346.7988" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2439" y1="1342.7988" y2="1342.7988"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="235" x="1745.5" y="1338.0566">ModeratedUserPinsFeed(GPS Position)</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="1371.4541"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1371.4541" y2="1371.4541"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1374.4541" y2="1374.4541"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="273" x="1133.5" y="1360.7988"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="255" x="1139.5" y="1377.3672">Finish requesting overlay information</text><polygon fill="#A80036" points="939,1411.4199,929,1415.4199,939,1419.4199" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="933" x2="1280" y1="1415.4199" y2="1415.4199"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="235" x="987" y="1410.6777">Overlay Destination Information Data</text><polygon fill="#A80036" points="343,1440.7305,333,1444.7305,343,1448.7305" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="337" x2="917" y1="1444.7305" y2="1444.7305"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="249" x="500.5" y="1439.9883">display Destination overlay information</text><polygon fill="#A80036" points="906,1470.041,916,1474.041,906,1478.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="332" x2="912" y1="1474.041" y2="1474.041"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="565.5" y="1469.2988">request Navigation</text><polygon fill="#A80036" points="1446,1514.6621,1456,1518.6621,1446,1522.6621" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="928" x2="1452" y1="1518.6621" y2="1518.6621"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="115" x="1135.5" y="1498.6094">requestNavigation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1152.5" y="1513.9199">(Destination)</text><polygon fill="#A80036" points="1748.5,1559.2832,1758.5,1563.2832,1748.5,1567.2832" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1468" x2="1754.5" y1="1563.2832" y2="1563.2832"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="1559.75" y="1543.2305">requestSafeRoute</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1573.75" y="1558.541">(Destination)</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1770.5" x2="1812.5" y1="1607.9043" y2="1607.9043"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1812.5" x2="1812.5" y1="1607.9043" y2="1620.9043"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1771.5" x2="1812.5" y1="1620.9043" y2="1620.9043"/><polygon fill="#A80036" points="1781.5,1616.9043,1771.5,1620.9043,1781.5,1624.9043" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="1777.5" y="1587.8516">possibleRoutes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1777.5" y="1603.1621">(Destination)</text><polygon fill="#A80036" points="1886.5,1661.5254,1896.5,1665.5254,1886.5,1669.5254" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1770.5" x2="1892.5" y1="1665.5254" y2="1665.5254"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1794" y="1645.4727">rate possible</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="1802.5" y="1660.7832">routes risk</text><polygon fill="#A80036" points="1297,1715.1465,1287,1719.1465,1297,1723.1465" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1291" x2="1897.5" y1="1719.1465" y2="1719.1465"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="1531.75" y="1714.4043">request overlayInfo</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="1747.8018"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1747.8018" y2="1747.8018"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1750.8018" y2="1750.8018"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="264" x="1138" y="1737.1465"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="246" x="1144" y="1753.7148">Start requesting overlay information</text><polygon fill="#A80036" points="2265,1787.7676,2275,1791.7676,2265,1795.7676" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2271" y1="1791.7676" y2="1791.7676"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="1700.5" y="1787.0254">requestData(GPS Position)</text><polygon fill="#A80036" points="1297,1817.0781,1287,1821.0781,1297,1825.0781" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2281" y1="1821.0781" y2="1821.0781"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="145" x="1711.5" y="1816.3359">Map Data(GPS Position)</text><polygon fill="#A80036" points="2111.5,1846.3887,2121.5,1850.3887,2111.5,1854.3887" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2117.5" y1="1850.3887" y2="1850.3887"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="1627.25" y="1845.6465">requestData(GPSpostion)</text><polygon fill="#A80036" points="1297,1875.6992,1287,1879.6992,1297,1883.6992" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2127.5" y1="1879.6992" y2="1879.6992"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="200" x="1607.25" y="1874.957">COVID related Data(GPSpostion)</text><polygon fill="#A80036" points="2423,1905.0098,2433,1909.0098,2423,1913.0098" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1286" x2="2429" y1="1909.0098" y2="1909.0098"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="1779.5" y="1904.2676">requestData(GPS Position)</text><polygon fill="#A80036" points="1297,1934.3203,1287,1938.3203,1297,1942.3203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1291" x2="2439" y1="1938.3203" y2="1938.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="235" x="1745.5" y="1933.5781">ModeratedUserPinsFeed(GPS Position)</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="1966.9756"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1966.9756" y2="1966.9756"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="1969.9756" y2="1969.9756"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="273" x="1133.5" y="1956.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="255" x="1139.5" y="1972.8887">Finish requesting overlay information</text><polygon fill="#A80036" points="1886.5,2006.9414,1896.5,2010.9414,1886.5,2014.9414" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1281" x2="1892.5" y1="2010.9414" y2="2010.9414"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="235" x="1472.25" y="2006.1992">Overlay Destination Information Data</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1908.5" x2="1950.5" y1="2040.252" y2="2040.252"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1950.5" x2="1950.5" y1="2040.252" y2="2053.252"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1909.5" x2="1950.5" y1="2053.252" y2="2053.252"/><polygon fill="#A80036" points="1919.5,2049.252,1909.5,2053.252,1919.5,2057.252" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="201" x="1915.5" y="2035.5098">calculateRiskRating(overlayInfo)</text><polygon fill="#A80036" points="1781.5,2093.873,1771.5,2097.873,1781.5,2101.873" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1775.5" x2="1902.5" y1="2097.873" y2="2097.873"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="37" x="1816.5" y="2077.8203">list of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="1785" y="2093.1309">risk rated routes</text><polygon fill="#A80036" points="1479,2138.4941,1469,2142.4941,1479,2146.4941" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1473" x2="1764.5" y1="2142.4941" y2="2142.4941"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="1576.25" y="2122.4414">sorted list of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="1564.75" y="2137.752">risk rated routes</text><polygon fill="#A80036" points="939,2167.8047,929,2171.8047,939,2175.8047" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="933" x2="1457" y1="2171.8047" y2="2171.8047"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="506" x="940" y="2167.0625">default select the safest route and include the rest risk rated routes(Destination)</text><polygon fill="#A80036" points="343,2197.1152,333,2201.1152,343,2205.1152" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="337" x2="917" y1="2201.1152" y2="2201.1152"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="213" x="518.5" y="2196.373">Display navigation routes options</text><polygon fill="#A80036" points="906,2226.4258,916,2230.4258,906,2234.4258" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="332" x2="912" y1="2230.4258" y2="2230.4258"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="552" y="2225.6836">Select Navigation route</text><polygon fill="#A80036" points="1446,2255.7363,1456,2259.7363,1446,2263.7363" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="928" x2="1452" y1="2259.7363" y2="2259.7363"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="1148.5" y="2254.9941">Selected route</text><polygon fill="#A80036" points="613,2285.0469,603,2289.0469,613,2293.0469" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="607" x2="917" y1="2289.0469" y2="2289.0469"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="698" y="2284.3047">request switch view</text><polygon fill="#A80036" points="911,2314.3574,921,2318.3574,911,2322.3574" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="602" x2="917" y1="2318.3574" y2="2318.3574"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="118" x="703.5" y="2313.6152">accept switch view</text><path d="M298.5,2333.3574 L372.5,2333.3574 L372.5,2340.3574 L362.5,2350.3574 L298.5,2350.3574 L298.5,2333.3574 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="176.8633" style="stroke:#000000;stroke-width:2.0;" width="1336.5" x="298.5" y="2333.3574"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="313.5" y="2346.9258">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="387.5" y="2345.9922">[while navigation]</text><polygon fill="#A80036" points="1446,2367.9785,1456,2371.9785,1446,2375.9785" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1452" y1="2371.9785" y2="2371.9785"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="976.5" y="2367.2363">request direction</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1468" x2="1510" y1="2401.2891" y2="2401.2891"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1510" x2="1510" y1="2401.2891" y2="2414.2891"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1469" x2="1510" y1="2414.2891" y2="2414.2891"/><polygon fill="#A80036" points="1479,2410.2891,1469,2414.2891,1479,2418.2891" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="1475" y="2396.5469">calculate next direction</text><polygon fill="#A80036" points="840,2439.5996,830,2443.5996,840,2447.5996" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="834" x2="1457" y1="2443.5996" y2="2443.5996"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="1099.5" y="2438.8574">next direction</text><polygon fill="#A80036" points="613,2468.9102,603,2472.9102,613,2476.9102" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="607" x2="818" y1="2472.9102" y2="2472.9102"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="645.5" y="2468.168">overly next direction</text><polygon fill="#A80036" points="343,2498.2207,333,2502.2207,343,2506.2207" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="337" x2="591" y1="2502.2207" y2="2502.2207"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="236" x="344" y="2497.4785">display navigation arrow for direction</text><path d="M20,2524.2207 L82,2524.2207 L82,2531.2207 L72,2541.2207 L20,2541.2207 L20,2524.2207 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="621.9004" style="stroke:#000000;stroke-width:2.0;" width="1958.5" x="20" y="2524.2207"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="35" y="2537.7891">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="251" x="97" y="2536.8555">[if navigation completed and user logged in]</text><polygon fill="#A80036" points="1446,2558.8418,1456,2562.8418,1446,2566.8418" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602" x2="1452" y1="2562.8418" y2="2562.8418"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="955.5" y="2558.0996">request navigated route</text><polygon fill="#A80036" points="613,2588.1523,603,2592.1523,613,2596.1523" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="607" x2="1462" y1="2592.1523" y2="2592.1523"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="140" x="962.5" y="2587.4102">return navigated route</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="602" x2="644" y1="2626.4629" y2="2626.4629"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="644" x2="644" y1="2626.4629" y2="2639.4629"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="597" x2="644" y1="2639.4629" y2="2639.4629"/><polygon fill="#A80036" points="607,2635.4629,597,2639.4629,607,2643.4629" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="203" x="609" y="2621.7207">add navigated route to UserData</text><path d="M30,2649.4629 L92,2649.4629 L92,2656.4629 L82,2666.4629 L30,2666.4629 L30,2649.4629 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="489.6582" style="stroke:#000000;stroke-width:2.0;" width="1938.5" x="30" y="2649.4629"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="45" y="2663.0313">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="107" y="2662.0977">[if user agreed to privacy terms]</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="2687.4287"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="2687.4287" y2="2687.4287"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="2690.4287" y2="2690.4287"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="260" x="1140" y="2676.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="242" x="1146" y="2693.3418">Start monitoring navigation journey</text><polygon fill="#A80036" points="580,2727.3945,590,2731.3945,580,2735.3945" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="111.5" x2="586" y1="2731.3945" y2="2731.3945"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="254" x="224.75" y="2726.6523">request to monitoring navigated journey</text><polygon fill="#A80036" points="122.5,2756.7051,112.5,2760.7051,122.5,2764.7051" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="116.5" x2="591" y1="2760.7051" y2="2760.7051"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="92" x="305.75" y="2755.9629">accept request</text><path d="M40,2775.7051 L114,2775.7051 L114,2782.7051 L104,2792.7051 L40,2792.7051 L40,2775.7051 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="313.1055" style="stroke:#000000;stroke-width:2.0;" width="1918.5" x="40" y="2775.7051"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="55" y="2789.2734">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="129" y="2788.3398">[for each day in N days]</text><polygon fill="#A80036" points="1891.5,2810.3262,1901.5,2814.3262,1891.5,2818.3262" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="111.5" x2="1897.5" y1="2814.3262" y2="2814.3262"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="244" x="885.5" y="2809.584">check navigated journey every H hours</text><polygon fill="#A80036" points="122.5,2839.6367,112.5,2843.6367,122.5,2847.6367" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="116.5" x2="1897.5" y1="2843.6367" y2="2843.6367"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="234" x="888" y="2838.8945">feed navigated journey every H hours</text><path d="M50,2888.6367 L134,2888.6367 L134,2895.6367 L124,2905.6367 L50,2905.6367 L50,2888.6367 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="193.1738" style="stroke:#000000;stroke-width:2.0;" width="599.5" x="50" y="2888.6367"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="65" y="2902.2051">break</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="149" y="2901.2715">[risk rate over threshold]</text><polygon fill="#A80036" points="580,2923.2578,590,2927.2578,580,2931.2578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="111.5" x2="586" y1="2927.2578" y2="2927.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="183" x="260.25" y="2922.5156">request User current location</text><polygon fill="#A80036" points="122.5,2952.5684,112.5,2956.5684,122.5,2960.5684" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="116.5" x2="591" y1="2956.5684" y2="2956.5684"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="132" x="285.75" y="2951.8262">User current location</text><polygon fill="#A80036" points="580,2981.8789,590,2985.8789,580,2989.8789" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="111.5" x2="586" y1="2985.8789" y2="2985.8789"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="381" x="161.25" y="2981.1367">request closest COVID Test center with user current location</text><polygon fill="#A80036" points="122.5,3011.1895,112.5,3015.1895,122.5,3019.1895" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="116.5" x2="591" y1="3015.1895" y2="3015.1895"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="221" x="241.25" y="3010.4473">closest COVID Test center GeoData</text><polygon fill="#A80036" points="580,3040.5,590,3044.5,580,3048.5" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="111.5" x2="586" y1="3044.5" y2="3044.5"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="297.25" y="3039.7578">Send Notification</text><polygon fill="#A80036" points="338,3069.8105,328,3073.8105,338,3077.8105" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="332" x2="596" y1="3073.8105" y2="3073.8105"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="407.5" y="3069.0684">Send Notification</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2540" x="0" y="3116.4658"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="3116.4658" y2="3116.4658"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2540" y1="3119.4658" y2="3119.4658"/><rect fill="#EEEEEE" height="23.3105" style="stroke:#000000;stroke-width:2.0;" width="269" x="1135.5" y="3105.8105"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="251" x="1141.5" y="3122.3789">Finish monitoring navigation journey</text><!--MD5=[56f91beba7f312210a7365b5af1e2190]
+@startuml BUS-B7-sqDia1
+
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+
+title
+    Sequence Diagram - Safe route navigation 
+end title
+hide unlinked
+
+participant "Notification"
+participant "Login"
+actor "User"
+participant "Local View"
+participant "AR Engine"
+participant "Global View"
+participant "Overlay Information"
+participant "Navigation"
+participant "Search"
+participant "Safe Route"
+participant "Risk Rating"
+participant "COVID Data Handler"
+participant "Map Data Handler"
+participant "User Pins Moderation"
+
+
+activate User
+activate Login
+alt new user
+    User -> Login: Register
+    Login - -> User: Account Created
+end 
+
+User - -> Login: Autologin
+
+deactivate Login
+activate "Local View"
+activate "AR Engine"
+User -> "Local View": default view
+note over User: Assume User has given the camera permission.
+"Local View" -> "Overlay Information": request surrounding overlay information
+loop while request device GPSPostion failed
+    "Local View" - -> "Navigation": request device GPSPostion
+    activate "Navigation"
+    "Navigation" -> "Navigation": get device current GPS Position 
+end
+"Navigation" - -> "Local View": return device current GPS Position
+deactivate "Navigation"
+
+
+"Local View" -> "Overlay Information": request overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" - -> "Overlay Information": MapData(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" - -> "Overlay Information": return CovidData(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" - -> "Overlay Information": return ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" - -> "AR Engine": overlay surrounding Information Data
+deactivate "Overlay Information"
+"AR Engine" - -> "Local View": Generate AR objects
+"Local View" - -> "User": display overlay information
+
+User -> "Local View": search Destination
+"Local View" -> "Search": request search Location(Destination)
+
+activate "Search"
+"Search" -> "Map Data Handler": requestGeoData(Destination)
+activate "Map Data Handler"
+"Map Data Handler" -> "Search": a list of possible locations geoData
+deactivate "Map Data Handler"
+"Search" - -> "Global View": the most possible location geoData
+deactivate "Search"
+activate "Global View"
+"Global View" -> "Local View": request switch view
+"Local View" - -> "Global View": accept switch view
+deactivate "Local View"
+deactivate "AR Engine"
+"Global View" - -> "Global View": center screen to Destination (most possible location)
+"Global View" -> "Overlay Information": request Destination overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" - -> "Overlay Information": Map Data(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" - -> "Overlay Information": COVID related Data(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" - -> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" - -> "Global View": Overlay Destination Information Data
+deactivate "Overlay Information"
+
+"Global View" - -> "User": display Destination overlay information
+
+"User" -> "Global View": request Navigation
+"Global View" -> "Navigation": requestNavigation\n(Destination)
+activate "Navigation"
+"Navigation" -> "Safe Route": requestSafeRoute\n(Destination)
+activate "Safe Route"
+"Safe Route" - -> "Safe Route": possibleRoutes\n(Destination)
+"Safe Route" -> "Risk Rating": rate possible\n routes risk
+activate "Risk Rating"
+loop for each in possibleRoutes
+    "Risk Rating" -> "Overlay Information": request overlayInfo
+    activate "Overlay Information"
+
+    == Start requesting overlay information ==
+    "Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+    activate "Map Data Handler"
+    "Map Data Handler" - -> "Overlay Information": Map Data(GPS Position)
+    deactivate "Map Data Handler"
+
+    "Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+    activate "COVID Data Handler"
+    "COVID Data Handler" - -> "Overlay Information": COVID related Data(GPSpostion)
+    deactivate "COVID Data Handler"
+
+    "Overlay Information" -> "User Pins Moderation": requestData(GPS Position)
+    activate "User Pins Moderation"
+    "User Pins Moderation" - -> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+    deactivate "User Pins Moderation"
+    == Finish requesting overlay information ==
+
+    "Overlay Information" - -> "Risk Rating": Overlay Destination Information Data
+    deactivate "Overlay Information"
+    "Risk Rating" - ->  "Risk Rating": calculateRiskRating(overlayInfo)
+"Risk Rating" - -> "Safe Route": list of \nrisk rated routes
+deactivate "Risk Rating"
+"Safe Route" - -> "Navigation": sorted list of\nrisk rated routes
+deactivate "Safe Route"
+"Navigation" - -> "Global View": default select the safest route and include the rest risk rated routes(Destination)
+"Global View" - -> "User": Display navigation routes options
+"User" -> "Global View": Select Navigation route
+"Global View" - -> "Navigation": Selected route
+
+"Global View"->"Local View": request switch view
+activate "Local View"
+activate "AR Engine"
+"Local View" - -> "Global View": accept switch view
+deactivate "Global View"
+loop while navigation
+    "Local View" -> "Navigation": request direction
+    "Navigation" - -> "Navigation": calculate next direction
+    "Navigation" - -> "AR Engine": next direction
+    "AR Engine" - -> "Local View": overly next direction
+    "Local View" - -> "User": display navigation arrow for direction
+end
+deactivate "Navigation"
+deactivate "AR Engine"
+deactivate "User"
+
+deactivate "Local View"
+
+alt if navigation completed and user logged in
+    "Local View" -> "Navigation": request navigated route  
+    activate "Local View"
+    activate "Navigation"
+    "Navigation" - -> "Local View": return navigated route
+    deactivate "Navigation"
+    "Local View" - -> "Local View": add navigated route to UserData
+    deactivate "Local View"
+    alt if user agreed to privacy terms
+        == Start monitoring navigation journey ==
+        "Notification" -> "Local View": request to monitoring navigated journey
+        activate "Notification"
+        activate "Local View"
+        "Local View" - -> "Notification": accept request
+        loop for each day in N days
+            "Notification" -> "Risk Rating": check navigated journey every H hours
+            "Risk Rating" - -> "Notification": feed navigated journey every H hours
+            activate "Risk Rating"
+            break risk rate over threshold
+                deactivate "Risk Rating"
+                "Notification" -> "Local View": request User current location
+                "Local View" - -> "Notification": User current location
+                "Notification" -> "Local View": request closest COVID Test center with user current location
+                "Local View" - -> "Notification": closest COVID Test center GeoData
+                "Notification" - -> "Local View": Send Notification
+                "Local View" - -> "User": Send Notification
+                deactivate "Local View"
+                deactivate "Notification"
+            end
+        end
+        == Finish monitoring navigation journey ==
+    end
+end
+
+' destroy "Notification"
+' destroy "Login"
+' destroy "User"
+' destroy "Local View"
+' destroy "AR Engine"
+' destroy "Global View"
+' destroy "Overlay Information"
+' destroy "Navigation"
+' destroy "Search"
+' destroy "Safe Route"
+' destroy "COVID Data Handler"
+' destroy "Map Data Handler"
+' destroy "User Pins Moderation"
+
+@enduml
+
+@startuml BUS-B7-sqDia1
+
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+
+title
+    Sequence Diagram - Safe route navigation 
+end title
+hide unlinked
+
+participant "Notification"
+participant "Login"
+actor "User"
+participant "Local View"
+participant "AR Engine"
+participant "Global View"
+participant "Overlay Information"
+participant "Navigation"
+participant "Search"
+participant "Safe Route"
+participant "Risk Rating"
+participant "COVID Data Handler"
+participant "Map Data Handler"
+participant "User Pins Moderation"
+
+
+activate User
+activate Login
+alt new user
+    User -> Login: Register
+    Login - -> User: Account Created
+end 
+
+User - -> Login: Autologin
+
+deactivate Login
+activate "Local View"
+activate "AR Engine"
+User -> "Local View": default view
+note over User: Assume User has given the camera permission.
+"Local View" -> "Overlay Information": request surrounding overlay information
+loop while request device GPSPostion failed
+    "Local View" - -> "Navigation": request device GPSPostion
+    activate "Navigation"
+    "Navigation" -> "Navigation": get device current GPS Position 
+end
+"Navigation" - -> "Local View": return device current GPS Position
+deactivate "Navigation"
+
+
+"Local View" -> "Overlay Information": request overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" - -> "Overlay Information": MapData(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" - -> "Overlay Information": return CovidData(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" - -> "Overlay Information": return ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" - -> "AR Engine": overlay surrounding Information Data
+deactivate "Overlay Information"
+"AR Engine" - -> "Local View": Generate AR objects
+"Local View" - -> "User": display overlay information
+
+User -> "Local View": search Destination
+"Local View" -> "Search": request search Location(Destination)
+
+activate "Search"
+"Search" -> "Map Data Handler": requestGeoData(Destination)
+activate "Map Data Handler"
+"Map Data Handler" -> "Search": a list of possible locations geoData
+deactivate "Map Data Handler"
+"Search" - -> "Global View": the most possible location geoData
+deactivate "Search"
+activate "Global View"
+"Global View" -> "Local View": request switch view
+"Local View" - -> "Global View": accept switch view
+deactivate "Local View"
+deactivate "AR Engine"
+"Global View" - -> "Global View": center screen to Destination (most possible location)
+"Global View" -> "Overlay Information": request Destination overlay information
+activate "Overlay Information"
+
+== Start requesting overlay information ==
+"Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+activate "Map Data Handler"
+"Map Data Handler" - -> "Overlay Information": Map Data(GPS Position)
+deactivate "Map Data Handler"
+
+"Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+activate "COVID Data Handler"
+"COVID Data Handler" - -> "Overlay Information": COVID related Data(GPSpostion)
+deactivate "COVID Data Handler"
+
+"Overlay Information" -> "User Pins Moderation": request UserPinsFeed(GPS Position)
+activate "User Pins Moderation"
+"User Pins Moderation" - -> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+deactivate "User Pins Moderation"
+== Finish requesting overlay information ==
+
+"Overlay Information" - -> "Global View": Overlay Destination Information Data
+deactivate "Overlay Information"
+
+"Global View" - -> "User": display Destination overlay information
+
+"User" -> "Global View": request Navigation
+"Global View" -> "Navigation": requestNavigation\n(Destination)
+activate "Navigation"
+"Navigation" -> "Safe Route": requestSafeRoute\n(Destination)
+activate "Safe Route"
+"Safe Route" - -> "Safe Route": possibleRoutes\n(Destination)
+"Safe Route" -> "Risk Rating": rate possible\n routes risk
+activate "Risk Rating"
+loop for each in possibleRoutes
+    "Risk Rating" -> "Overlay Information": request overlayInfo
+    activate "Overlay Information"
+
+    == Start requesting overlay information ==
+    "Overlay Information" -> "Map Data Handler": requestData(GPS Position)
+    activate "Map Data Handler"
+    "Map Data Handler" - -> "Overlay Information": Map Data(GPS Position)
+    deactivate "Map Data Handler"
+
+    "Overlay Information" -> "COVID Data Handler": requestData(GPSpostion)
+    activate "COVID Data Handler"
+    "COVID Data Handler" - -> "Overlay Information": COVID related Data(GPSpostion)
+    deactivate "COVID Data Handler"
+
+    "Overlay Information" -> "User Pins Moderation": requestData(GPS Position)
+    activate "User Pins Moderation"
+    "User Pins Moderation" - -> "Overlay Information": ModeratedUserPinsFeed(GPS Position)
+    deactivate "User Pins Moderation"
+    == Finish requesting overlay information ==
+
+    "Overlay Information" - -> "Risk Rating": Overlay Destination Information Data
+    deactivate "Overlay Information"
+    "Risk Rating" - ->  "Risk Rating": calculateRiskRating(overlayInfo)
+"Risk Rating" - -> "Safe Route": list of \nrisk rated routes
+deactivate "Risk Rating"
+"Safe Route" - -> "Navigation": sorted list of\nrisk rated routes
+deactivate "Safe Route"
+"Navigation" - -> "Global View": default select the safest route and include the rest risk rated routes(Destination)
+"Global View" - -> "User": Display navigation routes options
+"User" -> "Global View": Select Navigation route
+"Global View" - -> "Navigation": Selected route
+
+"Global View"->"Local View": request switch view
+activate "Local View"
+activate "AR Engine"
+"Local View" - -> "Global View": accept switch view
+deactivate "Global View"
+loop while navigation
+    "Local View" -> "Navigation": request direction
+    "Navigation" - -> "Navigation": calculate next direction
+    "Navigation" - -> "AR Engine": next direction
+    "AR Engine" - -> "Local View": overly next direction
+    "Local View" - -> "User": display navigation arrow for direction
+end
+deactivate "Navigation"
+deactivate "AR Engine"
+deactivate "User"
+
+deactivate "Local View"
+
+alt if navigation completed and user logged in
+    "Local View" -> "Navigation": request navigated route  
+    activate "Local View"
+    activate "Navigation"
+    "Navigation" - -> "Local View": return navigated route
+    deactivate "Navigation"
+    "Local View" - -> "Local View": add navigated route to UserData
+    deactivate "Local View"
+    alt if user agreed to privacy terms
+        == Start monitoring navigation journey ==
+        "Notification" -> "Local View": request to monitoring navigated journey
+        activate "Notification"
+        activate "Local View"
+        "Local View" - -> "Notification": accept request
+        loop for each day in N days
+            "Notification" -> "Risk Rating": check navigated journey every H hours
+            "Risk Rating" - -> "Notification": feed navigated journey every H hours
+            activate "Risk Rating"
+            break risk rate over threshold
+                deactivate "Risk Rating"
+                "Notification" -> "Local View": request User current location
+                "Local View" - -> "Notification": User current location
+                "Notification" -> "Local View": request closest COVID Test center with user current location
+                "Local View" - -> "Notification": closest COVID Test center GeoData
+                "Notification" - -> "Local View": Send Notification
+                "Local View" - -> "User": Send Notification
+                deactivate "Local View"
+                deactivate "Notification"
+            end
+        end
+        == Finish monitoring navigation journey ==
+    end
+end
+
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 09:36:27 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: HK
+--></g></svg>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="3224px" preserveAspectRatio="none" style="width:1599px;height:3224px;" version="1.1" viewBox="0 0 1599 3224" width="1599px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="321" x="632.5" y="16.708">State Diagram - checking risk rate</text><!--MD5=[d2cd6fee76e454991c3d563487ecf6f3]
+cluster Login--><rect fill="#FEFECE" height="893" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="522" x="17" y="109.9531"/><rect fill="#FFFFFF" height="860.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="516" x="20" y="139.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="17" x2="539" y1="136.25" y2="136.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="258.5" y="126.9482">Login</text><!--MD5=[5f505d9d4c57ff449f20da21d361d1d0]
+cluster CheckPermission--><rect fill="#FEFECE" height="580" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="497" x="354" y="1104.9531"/><rect fill="#FFFFFF" height="547.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="491" x="357" y="1134.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="354" x2="851" y1="1131.25" y2="1131.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="541" y="1121.9482">CheckPermission</text><!--MD5=[6732b4f7c41811e5b439879fdb91770e]
+cluster SelectUI--><rect fill="#FEFECE" height="186" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="1021" x="7" y="1717.9531"/><rect fill="#FFFFFF" height="153.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="1015" x="10" y="1747.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="1028" y1="1744.25" y2="1744.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="488" y="1734.9482">SelectUI</text><!--MD5=[16ef27b660ef87d561e467c09169f82d]
+cluster Positioning--><rect fill="#FEFECE" height="313" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="756" x="13" y="2005.9531"/><rect fill="#FFFFFF" height="280.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="750" x="16" y="2035.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="13" x2="769" y1="2032.25" y2="2032.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="351" y="2022.9482">Positioning</text><!--MD5=[fe50687712e5e8ea3994109f07da2d17]
+cluster LocalView_OverlayInformation--><rect fill="#FEFECE" height="455" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="628" x="34" y="2763.9531"/><rect fill="#FFFFFF" height="422.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="622" x="37" y="2793.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="34" x2="662" y1="2790.25" y2="2790.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="239.5" y="2780.9482">LocalView_OverlayInformation</text><!--MD5=[3056fcc50c87819650e6b2b516be9615]
+cluster GlobalView_OverlayInformation--><rect fill="#FEFECE" height="455" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="906" x="686" y="2763.9531"/><rect fill="#FFFFFF" height="422.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="900" x="689" y="2793.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="686" x2="1592" y1="2790.25" y2="2790.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="1026" y="2780.9482">GlobalView_OverlayInformation</text><polygon fill="#FEFECE" points="448,144.9531,460,156.9531,448,168.9531,436,156.9531,448,144.9531" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="71" x="385.5" y="229.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="390.5" y="254.7998">NewUser</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="120" x="227" y="532.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="232" y="557.7998">RegisteredUser</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="108" x="348" y="330.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="353" y="355.7998">Registeration</text><polygon fill="#FEFECE" points="397,431.9531,409,443.9531,397,455.9531,385,443.9531,397,431.9531" style="stroke:#A80036;stroke-width:1.5;"/><g id="Login.UserLogin"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="490" x="33" y="633.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="523" y1="660.25" y2="660.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="243" y="651.9482">UserLogin</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="38" y="676.3887">if user is return user, \nthis state will be passed\n unless authentication failed.</text></g><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="118" x="219" y="744.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="224" y="769.7998">Authentication</text><polygon fill="#FEFECE" points="407,845.9531,419,857.9531,407,869.9531,395,857.9531,407,845.9531" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="124" x="386" y="532.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="391" y="557.7998">AnonymousUser</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="145" x="366.5" y="946.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="371.5" y="971.7998">AuthenticatedUser</text><polygon fill="#FEFECE" points="542,1240.9531,554,1252.9531,542,1264.9531,530,1252.9531,542,1240.9531" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#FEFECE" points="705,1543.9531,717,1555.9531,705,1567.9531,693,1555.9531,705,1543.9531" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="162" x="461" y="1139.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="466" y="1164.7998">CheckGPSPermission</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="202" x="380" y="1341.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="385" y="1366.7998">GPSPermissionNotGranted</text><ellipse cx="481" cy="1462.9531" fill="none" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="481.5" cy="1463.4531" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="176" x="617" y="1341.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="622" y="1366.7998">GPSPermissionGranted</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="188" x="611" y="1442.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="616" y="1467.7998">CheckCameraPermission</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="228" x="607" y="1628.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="612" y="1653.7998">CameraPermissionNotGranted</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="202" x="370" y="1628.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="375" y="1653.7998">CameraPermissionGranted</text><polygon fill="#FEFECE" points="471,1752.9531,483,1764.9531,471,1776.9531,459,1764.9531,471,1752.9531" style="stroke:#A80036;stroke-width:1.5;"/><g id="SelectUI.UI_LocalView"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="372" x="23" y="1837.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="23" x2="395" y1="1864.25" y2="1864.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="163.5" y="1855.9482">UI_LocalView</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="352" x="28" y="1880.3887">AR Engine activates\nuser observes screen with AR object</text></g><g id="SelectUI.UI_GlobalView"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="581" x="430.5" y="1837.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="430.5" x2="1011.5" y1="1864.25" y2="1864.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="671" y="1855.9482">UI_GlobalView</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="561" x="435.5" y="1880.3887">2D Map interface\nuser observes a map\nhis current location as a dot with a directioal arrow</text></g><g id="Positioning.ObtainDeviceGeoData"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="336" x="53" y="2040.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="53" x2="389" y1="2067.25" y2="2067.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="140.5" y="2058.9482">ObtainDeviceGeoData</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="316" x="58" y="2083.3887">obtain Map data to position device current Geo Data</text></g><polygon fill="#FEFECE" points="354,2151.9531,366,2163.9531,354,2175.9531,342,2163.9531,354,2151.9531" style="stroke:#A80036;stroke-width:1.5;"/><g id="Positioning.DeviceLocated"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="337" x="360.5" y="2252.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="360.5" x2="697.5" y1="2279.25" y2="2279.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="475.5" y="2270.9482">DeviceLocated</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="317" x="365.5" y="2295.3887">successfully located the device current GPS position</text></g><g id="Positioning.DeviceNotFound"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="296" x="29" y="2252.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="29" x2="325" y1="2279.25" y2="2279.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="118" y="2270.9482">DeviceNotFound</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="276" x="34" y="2295.3887">fail to located the device current GPS position</text></g><ellipse cx="743" cy="2277.9531" fill="none" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="743.5" cy="2278.4531" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="LocalView_OverlayInformation.ARengineLoadData"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="497" x="135.5" y="2798.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="135.5" x2="632.5" y1="2825.25" y2="2825.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="315.5" y="2816.9482">ARengineLoadData</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="140.5" y="2841.3887">AR Engine analyse the camera image\nmatch the most possible available result</text></g><g id="LocalView_OverlayInformation.ARengineProcess"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="596" x="50" y="2909.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="50" x2="646" y1="2936.25" y2="2936.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="286" y="2927.9482">ARengineProcess</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="576" x="55" y="2952.3887">AR Engine procross the loaded overlay data in the camera image \nand display availble options</text></g><g id="LocalView_OverlayInformation.ARengineDisplayOptions"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="325" x="168.5" y="3020.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="168.5" x2="493.5" y1="3047.25" y2="3047.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="242" y="3038.9482">ARengineDisplayOptions</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="305" x="173.5" y="3063.3887">AR Engine overlay available options for user query</text></g><g id="LocalView_OverlayInformation.ARengineDisplayData"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="321" x="322.5" y="3150.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="322.5" x2="643.5" y1="3176.75" y2="3176.75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="405.5" y="3168.4482">ARengineDisplayData</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="301" x="327.5" y="3192.8887">AR Engine overlay the available granulated results</text></g><path d="M50.5,3147.9531 L50.5,3203.3516 L287.5,3203.3516 L287.5,3157.9531 L277.5,3147.9531 L50.5,3147.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M277.5,3147.9531 L277.5,3157.9531 L287.5,3157.9531 L277.5,3147.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="56.5" y="3165.02">In this case the requesting data is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="60.5" y="3180.1528">the risk rate of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="56.5" y="3195.2856">the camera targeted building</text><g id="GlobalView_OverlayInformation.MapLoadData"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="492" x="710" y="2798.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="710" x2="1202" y1="2825.25" y2="2825.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="907" y="2816.9482">MapLoadData</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="472" x="715" y="2841.3887">Map retreives the parsed overlay data \n for the device's current GPS location</text></g><g id="GlobalView_OverlayInformation.MapProcess"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="523" x="853.5" y="2909.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="853.5" x2="1376.5" y1="2936.25" y2="2936.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1072.5" y="2927.9482">MapProcess</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="503" x="858.5" y="2952.3887">Map process and aggregate the loaded overlay data \nand display availble options</text></g><g id="GlobalView_OverlayInformation.MapDisplayOptions"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="262" x="1098" y="3020.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1098" x2="1360" y1="3047.25" y2="3047.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1159.5" y="3038.9482">MapDisplayOptions</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="242" x="1103" y="3063.3887">Map display pin for user select to query</text></g><g id="GlobalView_OverlayInformation.MapDisplayData"><rect fill="#FEFECE" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="601" x="974.5" y="3150.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="974.5" x2="1575.5" y1="3176.75" y2="3176.75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1217" y="3168.4482">MapDisplayData</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="581" x="979.5" y="3192.8887">Map overlay the meta COVID data and available options\n for the deceive's current GPS location.</text></g><path d="M702.5,3147.9531 L702.5,3203.3516 L939.5,3203.3516 L939.5,3157.9531 L929.5,3147.9531 L702.5,3147.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M929.5,3147.9531 L929.5,3157.9531 L939.5,3157.9531 L929.5,3147.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="708.5" y="3165.02">In this case the requesting data is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="712.5" y="3180.1528">the risk rate of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="708.5" y="3195.2856">the current location</text><ellipse cx="448" cy="36.9531" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#000000" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="502" y="1049.9531"/><rect fill="#000000" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="181" y="1950.9531"/><polygon fill="#FEFECE" points="529,2676.9531,541,2688.9531,529,2700.9531,517,2688.9531,529,2676.9531" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" height="219.2969" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="525" x="266.5" y="2365.9531"/><rect fill="#FFFFFF" height="187" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="519" x="269.5" y="2395.25"/><line style="stroke:#A80036;stroke-width:1.5;" x1="266.5" x2="791.5" y1="2392.25" y2="2392.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="435" y="2383.9482">ObtainOverlayInformation</text><ellipse cx="375" cy="2413.25" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="193" x="278.5" y="2459.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="283.5" y="2484.0967">StreamCovidRelatedData</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="179" x="285.5" y="2535.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="290.5" y="2560.0967">ParseCovidRelatedData</text><!--MD5=[859e931d9d9de12caed25bb25782c23c]
+link *start*ObtainOverlayInformation to StreamCovidRelatedData--><path d="M375,2423.274 C375,2423.274 375,2454.004 375,2454.004 " fill="none" id="*start*ObtainOverlayInformation-to-StreamCovidRelatedData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="375,2459.004,379,2450.004,375,2454.004,371,2450.004,375,2459.004" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ab44a6a7218b71a676f594dc949da671]
+link StreamCovidRelatedData to ParseCovidRelatedData--><path d="M375,2499.6166 C375,2499.6166 375,2530.0907 375,2530.0907 " fill="none" id="StreamCovidRelatedData-to-ParseCovidRelatedData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="375,2535.0907,379,2526.0907,375,2530.0907,371,2526.0907,375,2535.0907" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:8.0,10.0;" x1="464.5" x2="464.5" y1="2397.25" y2="2588.25"/><ellipse cx="535" cy="2413.25" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="127" x="471.5" y="2459.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="476.5" y="2484.0967">StreamMapData</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="113" x="478.5" y="2535.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="483.5" y="2560.0967">ParseMapData</text><!--MD5=[8777dc6452e48e28cbfae241431dc1ee]
+link *start*CONC192089 to StreamMapData--><path d="M535,2423.274 C535,2423.274 535,2454.004 535,2454.004 " fill="none" id="*start*CONC192089-to-StreamMapData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="535,2459.004,539,2450.004,535,2454.004,531,2450.004,535,2459.004" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4cee2a3c4d682a046007f60cabb64050]
+link StreamMapData to ParseMapData--><path d="M535,2499.6166 C535,2499.6166 535,2530.0907 535,2530.0907 " fill="none" id="StreamMapData-to-ParseMapData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="535,2535.0907,539,2526.0907,535,2530.0907,531,2526.0907,535,2535.0907" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;stroke-dasharray:8.0,10.0;" x1="591.5" x2="591.5" y1="2397.25" y2="2588.25"/><ellipse cx="691" cy="2413.25" fill="#000000" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="185" x="598.5" y="2459.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="603.5" y="2484.0967">StreamUserPinFeedData</text><rect fill="#FEFECE" height="40" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="171" x="605.5" y="2535.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="610.5" y="2560.0967">ParseUserPinFeedData</text><!--MD5=[6de5e00c5dd716c3f17ca3330aee63db]
+link *start*CONC192096 to StreamUserPinFeedData--><path d="M691,2423.274 C691,2423.274 691,2454.004 691,2454.004 " fill="none" id="*start*CONC192096-to-StreamUserPinFeedData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="691,2459.004,695,2450.004,691,2454.004,687,2450.004,691,2459.004" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[865362a9ca233065fed56c7731542379]
+link StreamUserPinFeedData to ParseUserPinFeedData--><path d="M691,2499.6166 C691,2499.6166 691,2530.0907 691,2530.0907 " fill="none" id="StreamUserPinFeedData-to-ParseUserPinFeedData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="691,2535.0907,695,2526.0907,691,2530.0907,687,2526.0907,691,2535.0907" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c11a10bac4cd9fd1f5aef284a102a671]
+link UserType to RegisteredUser--><path d="M435.843,156.9531 C395.261,156.9531 267,156.9531 267,156.9531 C267,156.9531 267,527.7731 267,527.7731 " fill="none" id="UserType-to-RegisteredUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="267,532.7731,271,523.7731,267,527.7731,263,523.7731,267,532.7731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fa80ae7f6cdf62931bdb861510ca5b2d]
+link RegisteredUser to UserLogin--><path d="M287,573.3931 C287,573.3931 287,628.7131 287,628.7131 " fill="none" id="RegisteredUser-to-UserLogin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="287,633.7131,291,624.7131,287,628.7131,283,624.7131,287,633.7131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8d4d8e8e027b0e18dfbd9a90352c0937]
+link UserLogin to Authentication--><path d="M278,684.0731 C278,684.0731 278,739.6231 278,739.6231 " fill="none" id="UserLogin-to-Authentication" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="278,744.6231,282,735.6231,278,739.6231,274,735.6231,278,744.6231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[294ead4307f803962b18c76c7378e0d6]
+link UserType to NewUser--><path d="M446.25,167.2631 C446.25,167.2631 446.25,224.8131 446.25,224.8131 " fill="none" id="UserType-to-NewUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="446.25,229.8131,450.25,220.8131,446.25,224.8131,442.25,220.8131,446.25,229.8131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af5d18c6940945e17522363378de5057]
+link NewUser to Registeration--><path d="M420.75,270.3931 C420.75,270.3931 420.75,325.8931 420.75,325.8931 " fill="none" id="NewUser-to-Registeration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="420.75,330.8931,424.75,321.8931,420.75,325.8931,416.75,321.8931,420.75,330.8931" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[36b92da8b2992328c461d7cf18ae1807]
+link Registeration to RegChoice--><path d="M397,371.1331 C397,371.1331 397,426.7831 397,426.7831 " fill="none" id="Registeration-to-RegChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="397,431.7831,401,422.7831,397,426.7831,393,422.7831,397,431.7831" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6aa922a08fd110cfc8c923053459fcc9]
+link RegChoice to RegisteredUser--><path d="M384.862,443.9531 C360.296,443.9531 307,443.9531 307,443.9531 C307,443.9531 307,527.7031 307,527.7031 " fill="none" id="RegChoice-to-RegisteredUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="307,532.7031,311,523.7031,307,527.7031,303,523.7031,307,532.7031" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="288" y="499.02">completed</text><!--MD5=[ea685d46ba8d78c968bd15e01a7615ad]
+link RegChoice to AnonymousUser--><path d="M397.5,455.6131 C397.5,455.6131 397.5,527.8931 397.5,527.8931 " fill="none" id="RegChoice-to-AnonymousUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="397.5,532.8931,401.5,523.8931,397.5,527.8931,393.5,523.8931,397.5,532.8931" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="398" y="499.02">not completed</text><!--MD5=[478bd2167021129f552c787ff3012470]
+link Authentication to AuthResult--><path d="M337.205,764.9531 C369.514,764.9531 403,764.9531 403,764.9531 C403,764.9531 403,844.7031 403,844.7031 " fill="none" id="Authentication-to-AuthResult" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="403,849.7031,407,840.7031,403,844.7031,399,840.7031,403,849.7031" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c13deb73119587420f06497812991695]
+link AuthResult to AuthenticatedUser--><path d="M407,870.0331 C407,870.0331 407,941.6731 407,941.6731 " fill="none" id="AuthResult-to-AuthenticatedUser" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="407,946.6731,411,937.6731,407,941.6731,403,937.6731,407,946.6731" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="429" y="913.02">success</text><!--MD5=[3d02a6de0500c649d4cb802959945768]
+link AuthResult to UserLogin--><path d="M411,849.9031 C411,849.9031 411,689.2631 411,689.2631 " fill="none" id="AuthResult-to-UserLogin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="411,684.2631,407,693.2631,411,689.2631,415,693.2631,411,684.2631" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="35" x="408" y="769.52">failed</text><!--MD5=[54324cd6f76e04dcc676d4f8517eb84a]
+link CheckGPSPermission to GPSPermissionChoice--><path d="M542,1180.1331 C542,1180.1331 542,1235.7831 542,1235.7831 " fill="none" id="CheckGPSPermission-to-GPSPermissionChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="542,1240.7831,546,1231.7831,542,1235.7831,538,1231.7831,542,1240.7831" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4cd8393882539416588e7d2217004b2d]
+link GPSPermissionChoice to GPSPermissionNotGranted--><path d="M542,1265.0331 C542,1265.0331 542,1336.6731 542,1336.6731 " fill="none" id="GPSPermissionChoice-to-GPSPermissionNotGranted" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="542,1341.6731,546,1332.6731,542,1336.6731,538,1332.6731,542,1341.6731" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="502" y="1308.02">not granted</text><!--MD5=[e5816dec9629f1b51ed294c6b239898c]
+link GPSPermissionNotGranted to *end*CheckPermission--><path d="M481,1382.3931 C481,1382.3931 481,1447.7231 481,1447.7231 " fill="none" id="GPSPermissionNotGranted-to-*end*CheckPermission" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="481,1452.7231,485,1443.7231,481,1447.7231,477,1443.7231,481,1452.7231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1fd363b4e974a6ad8fc85016044c7572]
+link GPSPermissionChoice to GPSPermissionGranted--><path d="M554.206,1252.9531 C592.542,1252.9531 708,1252.9531 708,1252.9531 C708,1252.9531 708,1336.7031 708,1336.7031 " fill="none" id="GPSPermissionChoice-to-GPSPermissionGranted" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="708,1341.7031,712,1332.7031,708,1336.7031,704,1332.7031,708,1341.7031" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="672" y="1308.02">granted</text><!--MD5=[4162cf09b613992803207a6cc3a3e2ab]
+link GPSPermissionGranted to CheckCameraPermission--><path d="M705,1382.3931 C705,1382.3931 705,1437.8931 705,1437.8931 " fill="none" id="GPSPermissionGranted-to-CheckCameraPermission" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="705,1442.8931,709,1433.8931,705,1437.8931,701,1433.8931,705,1442.8931" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3421fe9390e23c6792e489c4691246eb]
+link CheckCameraPermission to CameraPermissionChoice--><path d="M705,1483.1331 C705,1483.1331 705,1538.7831 705,1538.7831 " fill="none" id="CheckCameraPermission-to-CameraPermissionChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="705,1543.7831,709,1534.7831,705,1538.7831,701,1534.7831,705,1543.7831" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f2241399df27e5c29ab4c1bf8a9d4547]
+link CameraPermissionChoice to CameraPermissionNotGranted--><path d="M705,1568.1131 C705,1568.1131 705,1623.6131 705,1623.6131 " fill="none" id="CameraPermissionChoice-to-CameraPermissionNotGranted" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="705,1628.6131,709,1619.6131,705,1623.6131,701,1619.6131,705,1628.6131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b477c622e7a84c5d9908948be330970]
+link CameraPermissionChoice to CameraPermissionGranted--><path d="M692.8,1555.9531 C653.308,1555.9531 531.5,1555.9531 531.5,1555.9531 C531.5,1555.9531 531.5,1623.7731 531.5,1623.7731 " fill="none" id="CameraPermissionChoice-to-CameraPermissionGranted" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="531.5,1628.7731,535.5,1619.7731,531.5,1623.7731,527.5,1619.7731,531.5,1628.7731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ec3921995dd220d204ad4700edf0f403]
+link UIChoice to UI_LocalView--><path d="M458.694,1764.9531 C434.377,1764.9531 382.5,1764.9531 382.5,1764.9531 C382.5,1764.9531 382.5,1832.7131 382.5,1832.7131 " fill="none" id="UIChoice-to-UI_LocalView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="382.5,1837.7131,386.5,1828.7131,382.5,1832.7131,378.5,1828.7131,382.5,1837.7131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e763f3f178a26fb99da6da21f26ec813]
+link UIChoice to UI_GlobalView--><path d="M471,1776.9731 C471,1776.9731 471,1832.6331 471,1832.6331 " fill="none" id="UIChoice-to-UI_GlobalView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="471,1837.6331,475,1828.6331,471,1832.6331,467,1828.6331,471,1837.6331" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c4c7dd55f78413821df6f9aefd610df7]
+link ObtainDeviceGeoData to ObtainDataResult--><path d="M354,2091.1931 C354,2091.1931 354,2146.8931 354,2146.8931 " fill="none" id="ObtainDeviceGeoData-to-ObtainDataResult" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="354,2151.8931,358,2142.8931,354,2146.8931,350,2142.8931,354,2151.8931" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[97d31547a2dd327045901d518c13f6b7]
+link ObtainDataResult to DeviceNotFound--><path d="M351.25,2173.2831 C351.25,2200.5131 351.25,2277.9531 351.25,2277.9531 C351.25,2277.9531 330.163,2277.9531 330.163,2277.9531 " fill="none" id="ObtainDataResult-to-DeviceNotFound" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="325.163,2277.9531,334.163,2281.9531,330.163,2277.9531,334.163,2273.9531,325.163,2277.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7c3fd04eaa2e8dcc947cf60e34188c94]
+link DeviceNotFound to ObtainDeviceGeoData--><path d="M189,2252.8011 C189,2252.8011 189,2096.0731 189,2096.0731 " fill="none" id="DeviceNotFound-to-ObtainDeviceGeoData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="189,2091.0731,185,2100.0731,189,2096.0731,193,2100.0731,189,2091.0731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[94a630446fe61342899fc2cc96695fb6]
+link ObtainDataResult to DeviceLocated--><path d="M362.219,2167.9531 C368.996,2167.9531 377.5,2167.9531 377.5,2167.9531 C377.5,2167.9531 377.5,2247.7171 377.5,2247.7171 " fill="none" id="ObtainDataResult-to-DeviceLocated" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="377.5,2252.7171,381.5,2243.7171,377.5,2247.7171,373.5,2243.7171,377.5,2252.7171" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[20a727f71c12582c2290a532586714e6]
+link ObtainDataResult to *end*Positioning--><path d="M362.125,2159.9531 C417.987,2159.9531 743,2159.9531 743,2159.9531 C743,2159.9531 743,2262.8921 743,2262.8921 " fill="none" id="ObtainDataResult-to-*end*Positioning" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="743,2267.8921,747,2258.8921,743,2262.8921,739,2258.8921,743,2267.8921" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="483" y="2219.02">cannot locate the device poisiton, abort</text><!--MD5=[bfa203abaeeba4338acc120f34f5c292]
+link ARengineLoadData to ARengineProcess--><path d="M384,2849.1411 C384,2849.1411 384,2904.8651 384,2904.8651 " fill="none" id="ARengineLoadData-to-ARengineProcess" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="384,2909.8651,388,2900.8651,384,2904.8651,380,2900.8651,384,2909.8651" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[645f0df7fe62a263f249ae10e3a73f00]
+link ARengineProcess to ARengineDisplayOptions--><path d="M331,2960.1411 C331,2960.1411 331,3015.8651 331,3015.8651 " fill="none" id="ARengineProcess-to-ARengineDisplayOptions" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="331,3020.8651,335,3011.8651,331,3015.8651,327,3011.8651,331,3020.8651" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5beedc617b7fafd86e9e25e213c7f1b7]
+link ARengineDisplayOptions to ARengineDisplayData--><path d="M408,3071.2291 C408,3071.2291 408,3145.2405 408,3145.2405 " fill="none" id="ARengineDisplayOptions-to-ARengineDisplayData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="408,3150.2405,412,3141.2405,408,3145.2405,404,3141.2405,408,3150.2405" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="318" x="327" y="3114.02">User select on options for requesting data display</text><!--MD5=[dca0f6e07a26da12f7f8c6bd20e668a4]
+link GMN192111 to ARengineDisplayData--><path d="M287.71,3175.9531 C299.085,3175.9531 310.746,3175.9531 322.434,3175.9531 " fill="none" id="GMN192111-ARengineDisplayData" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[b03e70474bb578ec5e904b4dbd94fdcd]
+link MapLoadData to MapProcess--><path d="M1027.75,2849.1411 C1027.75,2849.1411 1027.75,2904.8651 1027.75,2904.8651 " fill="none" id="MapLoadData-to-MapProcess" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1027.75,2909.8651,1031.75,2900.8651,1027.75,2904.8651,1023.75,2900.8651,1027.75,2909.8651" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8ab89ea32dcb51acbfed7f259674d5ab]
+link MapProcess to MapDisplayOptions--><path d="M1229,2960.1411 C1229,2960.1411 1229,3015.8651 1229,3015.8651 " fill="none" id="MapProcess-to-MapDisplayOptions" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1229,3020.8651,1233,3011.8651,1229,3015.8651,1225,3011.8651,1229,3020.8651" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[984b420e64eeb41a0b8a0383e5fa067d]
+link MapDisplayOptions to MapDisplayData--><path d="M1229,3071.2291 C1229,3071.2291 1229,3145.2405 1229,3145.2405 " fill="none" id="MapDisplayOptions-to-MapDisplayData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1229,3150.2405,1233,3141.2405,1229,3145.2405,1225,3141.2405,1229,3150.2405" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="307" x="1249" y="3114.02">User click on options for requesting data display</text><!--MD5=[9f7a815eae76e62157023d1a5196f239]
+link GMN192122 to MapDisplayData--><path d="M939.69,3175.9531 C950.856,3175.9531 962.479,3175.9531 974.405,3175.9531 " fill="none" id="GMN192122-MapDisplayData" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[030e008fccd0134440a65b9fd1228142]
+link *start to UserType--><path d="M448,47.1831 C448,47.1831 448,139.6231 448,139.6231 " fill="none" id="*start-to-UserType" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="448,144.6231,452,135.6231,448,139.6231,444,135.6231,448,144.6231" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="449" y="90.02">User open TravelAR</text><!--MD5=[26c4d106c0369b01e1afd9a58e1cb82d]
+link AnonymousUser to usersJoin--><path d="M510.297,552.9531 C532.676,552.9531 552.5,552.9531 552.5,552.9531 C552.5,552.9531 552.5,1044.9231 552.5,1044.9231 " fill="none" id="AnonymousUser-to-usersJoin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="552.5,1049.9231,556.5,1040.9231,552.5,1044.9231,548.5,1040.9231,552.5,1049.9231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aa68116439efc45c41516ca6b75d9a44]
+link AuthenticatedUser to usersJoin--><path d="M506.75,987.1331 C506.75,987.1331 506.75,1044.6731 506.75,1044.6731 " fill="none" id="AuthenticatedUser-to-usersJoin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="506.75,1049.6731,510.75,1040.6731,506.75,1044.6731,502.75,1040.6731,506.75,1049.6731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[adc38e4bb557be7226eb4bf3588a3b31]
+link usersJoin to CheckGPSPermission--><path d="M542,1057.9831 C542,1057.9831 542,1134.7631 542,1134.7631 " fill="none" id="usersJoin-to-CheckGPSPermission" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="542,1139.7631,546,1130.7631,542,1134.7631,538,1130.7631,542,1139.7631" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[46dbd33ae1ae58da391c9f1964bcf438]
+link CameraPermissionNotGranted to UI_GlobalView--><path d="M721,1669.0831 C721,1669.0831 721,1832.8031 721,1832.8031 " fill="none" id="CameraPermissionNotGranted-to-UI_GlobalView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="721,1837.8031,725,1828.8031,721,1832.8031,717,1828.8031,721,1837.8031" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[003c1c6bcf2fa0453f48653338f2956e]
+link CameraPermissionGranted to UIChoice--><path d="M471,1669.1631 C471,1669.1631 471,1747.8031 471,1747.8031 " fill="none" id="CameraPermissionGranted-to-UIChoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="471,1752.8031,475,1743.8031,471,1747.8031,467,1743.8031,471,1752.8031" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8686e5d9a5182bc15d3bf1be08dd9752]
+link UI_GlobalView to uiJoin--><path d="M564,1888.0931 C564,1915.3331 564,1954.9531 564,1954.9531 C564,1954.9531 266.018,1954.9531 266.018,1954.9531 " fill="none" id="UI_GlobalView-to-uiJoin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="261.018,1954.9531,270.018,1958.9531,266.018,1954.9531,270.018,1950.9531,261.018,1954.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[525252721802138676b8d75dde3c1c61]
+link UI_LocalView to uiJoin--><path d="M221,1888.0931 C221,1888.0931 221,1945.8031 221,1945.8031 " fill="none" id="UI_LocalView-to-uiJoin" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="221,1950.8031,225,1941.8031,221,1945.8031,217,1941.8031,221,1950.8031" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fc0742084e6bc8bba19df90881326ae6]
+link uiJoin to ObtainDeviceGeoData--><path d="M221,1959.1731 C221,1959.1731 221,2035.5131 221,2035.5131 " fill="none" id="uiJoin-to-ObtainDeviceGeoData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="221,2040.5131,225,2031.5131,221,2035.5131,217,2031.5131,221,2040.5131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e365109b7bf4f3832e40113044050933]
+link DeviceLocated to ObtainOverlayInformation--><path d="M529,2302.9671 C529,2302.9671 529,2360.6261 529,2360.6261 " fill="none" id="DeviceLocated-to-ObtainOverlayInformation" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="529,2365.6261,533,2356.6261,529,2360.6261,525,2356.6261,529,2365.6261" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[911c4f516f731d15b7ff915a8eb823b9]
+link ObtainOverlayInformation to checkUIchoice--><path d="M529,2585.0171 C529,2585.0171 529,2671.6561 529,2671.6561 " fill="none" id="ObtainOverlayInformation-to-checkUIchoice" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="529,2676.6561,533,2667.6561,529,2671.6561,525,2667.6561,529,2676.6561" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="572" y="2628.02">User moves camera</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="530" y="2643.1528">towards a non-residensial building</text><!--MD5=[7077b918e17df75c13378b200f939094]
+link checkUIchoice to ARengineLoadData--><path d="M529,2701.4111 C529,2701.4111 529,2793.7581 529,2793.7581 " fill="none" id="checkUIchoice-to-ARengineLoadData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="529,2798.7581,533,2789.7581,529,2793.7581,525,2789.7581,529,2798.7581" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="429" y="2744.02">UI = Local View</text><!--MD5=[1dc1e86050dfa35e0577fb65e1f1f292]
+link checkUIchoice to MapLoadData--><path d="M541.238,2688.9531 C587.726,2688.9531 750.75,2688.9531 750.75,2688.9531 C750.75,2688.9531 750.75,2793.8771 750.75,2793.8771 " fill="none" id="checkUIchoice-to-MapLoadData" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="750.75,2798.8771,754.75,2789.8771,750.75,2793.8771,746.75,2789.8771,750.75,2798.8771" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="702" y="2744.02">UI = Global View</text><!--MD5=[32b95c1ad376f0cbb48133d266bbf83f]
+@startuml
+skinparam Style strictuml
+' skinparam defaultTextAlignment center
+' skinparam SequenceMessageAlign direction
+skinparam linetype ortho 
+
+hide empty description
+' scale 1000 width
+
+title State Diagram - checking risk rate 
+' left to right direction
+
+state Login {
+  state UserType <<choice>>
+  state NewUser
+  state RegisteredUser
+  state Registeration
+  state RegChoice <<choice>>
+  state UserLogin: if user is return user, \nthis state will be passed\n unless authentication failed.
+  state Authentication
+  state AuthResult <<choice>>
+  
+  UserType - -> RegisteredUser
+  RegisteredUser - -> UserLogin
+  UserLogin - -> Authentication
+  
+  UserType - -> NewUser
+  NewUser - -> Registeration
+  Registeration - -> RegChoice
+  RegChoice - -> RegisteredUser: completed
+  RegChoice - -> AnonymousUser: not completed
+
+  Authentication - -> AuthResult
+  AuthResult - -> AuthenticatedUser : success 
+  AuthResult - -> UserLogin: failed
+}
+
+state CheckPermission {
+    state GPSPermissionChoice <<choice>>
+    state CameraPermissionChoice <<choice>>
+    CheckGPSPermission - -> GPSPermissionChoice
+    GPSPermissionChoice - -> GPSPermissionNotGranted: not granted
+    GPSPermissionNotGranted - -> [*]
+    GPSPermissionChoice - -> GPSPermissionGranted: granted
+    GPSPermissionGranted - -> CheckCameraPermission
+    CheckCameraPermission - -> CameraPermissionChoice
+    CameraPermissionChoice - -> CameraPermissionNotGranted
+    CameraPermissionChoice - -> CameraPermissionGranted
+}
+
+state SelectUI {
+  state UIChoice <<choice>>
+  state UI_LocalView: AR Engine activates\nuser observes screen with AR object
+  state UI_GlobalView: 2D Map interface\nuser observes a map\nhis current location as a dot with a directioal arrow
+  UIChoice - -> UI_LocalView
+  UIChoice - -> UI_GlobalView
+}
+
+
+state Positioning {
+    state ObtainDeviceGeoData: obtain Map data to position device current Geo Data
+    state ObtainDataResult  <<choice>>
+    state DeviceLocated: successfully located the device current GPS position
+    state DeviceNotFound: fail to located the device current GPS position
+    ' [*] - -> ObtainDeviceGeoData
+    ObtainDeviceGeoData - -> ObtainDataResult 
+    ObtainDataResult - -> DeviceNotFound
+    DeviceNotFound - -> ObtainDeviceGeoData
+    ObtainDataResult - -> DeviceLocated
+    ObtainDataResult - -> [*]: cannot locate the device poisiton, abort
+}
+
+state ObtainOverlayInformation {
+  [*] - -> StreamCovidRelatedData
+  StreamCovidRelatedData - -> ParseCovidRelatedData
+  ||
+  [*] - -> StreamMapData
+  StreamMapData - -> ParseMapData
+  ||
+  [*] - -> StreamUserPinFeedData
+  StreamUserPinFeedData - -> ParseUserPinFeedData
+}
+
+state LocalView_OverlayInformation {
+  state ARengineLoadData: AR Engine analyse the camera image\nmatch the most possible available result
+  state ARengineProcess: AR Engine procross the loaded overlay data in the camera image \nand display availble options
+  state ARengineDisplayOptions: AR Engine overlay available options for user query 
+  state ARengineDisplayData:  AR Engine overlay the available granulated results
+
+  ARengineLoadData - -> ARengineProcess
+  ARengineProcess - -> ARengineDisplayOptions
+  ARengineDisplayOptions - -> ARengineDisplayData: User select on options for requesting data display
+  note left of ARengineDisplayData: In this case the requesting data is\n the risk rate of \nthe camera targeted building
+}
+
+state GlobalView_OverlayInformation {
+  state MapLoadData: Map retreives the parsed overlay data \n for the device's current GPS location
+  state MapProcess: Map process and aggregate the loaded overlay data \nand display availble options
+  state MapDisplayOptions: Map display pin for user select to query
+  state MapDisplayData:  Map overlay the meta COVID data and available options\n for the deceive's current GPS location.
+  
+  MapLoadData - -> MapProcess
+  MapProcess - -> MapDisplayOptions
+  MapDisplayOptions- -> MapDisplayData: User click on options for requesting data display
+  note left of MapDisplayData: In this case the requesting data is\n the risk rate of \nthe current location
+}
+
+
+[*] - -> UserType: User open TravelAR
+state usersJoin <<join>>
+state uiJoin <<join>>
+AnonymousUser - -> usersJoin
+AuthenticatedUser - -> usersJoin
+usersJoin - -> CheckGPSPermission
+CameraPermissionNotGranted - -> UI_GlobalView
+CameraPermissionGranted - -> UIChoice
+UI_GlobalView - -> uiJoin
+UI_LocalView - -> uiJoin
+uiJoin - -> ObtainDeviceGeoData
+DeviceLocated - -> ObtainOverlayInformation
+state checkUIchoice <<choice>>
+ObtainOverlayInformation - -> checkUIchoice: User moves camera \ntowards a non-residensial building
+checkUIchoice - -> ARengineLoadData: UI = Local View
+checkUIchoice - -> MapLoadData: UI = Global View
+' UICond
+
+
+' UserType - -> entry1: old user
+' oldNewUser - -> entry2: new user
+' exitA - -> Foo
+' Foo1 - -> entry2
+@enduml
+
+@startuml
+skinparam Style strictuml
+skinparam linetype ortho 
+
+hide empty description
+
+title State Diagram - checking risk rate 
+
+state Login {
+  state UserType <<choice>>
+  state NewUser
+  state RegisteredUser
+  state Registeration
+  state RegChoice <<choice>>
+  state UserLogin: if user is return user, \nthis state will be passed\n unless authentication failed.
+  state Authentication
+  state AuthResult <<choice>>
+  
+  UserType - -> RegisteredUser
+  RegisteredUser - -> UserLogin
+  UserLogin - -> Authentication
+  
+  UserType - -> NewUser
+  NewUser - -> Registeration
+  Registeration - -> RegChoice
+  RegChoice - -> RegisteredUser: completed
+  RegChoice - -> AnonymousUser: not completed
+
+  Authentication - -> AuthResult
+  AuthResult - -> AuthenticatedUser : success 
+  AuthResult - -> UserLogin: failed
+}
+
+state CheckPermission {
+    state GPSPermissionChoice <<choice>>
+    state CameraPermissionChoice <<choice>>
+    CheckGPSPermission - -> GPSPermissionChoice
+    GPSPermissionChoice - -> GPSPermissionNotGranted: not granted
+    GPSPermissionNotGranted - -> [*]
+    GPSPermissionChoice - -> GPSPermissionGranted: granted
+    GPSPermissionGranted - -> CheckCameraPermission
+    CheckCameraPermission - -> CameraPermissionChoice
+    CameraPermissionChoice - -> CameraPermissionNotGranted
+    CameraPermissionChoice - -> CameraPermissionGranted
+}
+
+state SelectUI {
+  state UIChoice <<choice>>
+  state UI_LocalView: AR Engine activates\nuser observes screen with AR object
+  state UI_GlobalView: 2D Map interface\nuser observes a map\nhis current location as a dot with a directioal arrow
+  UIChoice - -> UI_LocalView
+  UIChoice - -> UI_GlobalView
+}
+
+
+state Positioning {
+    state ObtainDeviceGeoData: obtain Map data to position device current Geo Data
+    state ObtainDataResult  <<choice>>
+    state DeviceLocated: successfully located the device current GPS position
+    state DeviceNotFound: fail to located the device current GPS position
+    ObtainDeviceGeoData - -> ObtainDataResult 
+    ObtainDataResult - -> DeviceNotFound
+    DeviceNotFound - -> ObtainDeviceGeoData
+    ObtainDataResult - -> DeviceLocated
+    ObtainDataResult - -> [*]: cannot locate the device poisiton, abort
+}
+
+state ObtainOverlayInformation {
+  [*] - -> StreamCovidRelatedData
+  StreamCovidRelatedData - -> ParseCovidRelatedData
+  ||
+  [*] - -> StreamMapData
+  StreamMapData - -> ParseMapData
+  ||
+  [*] - -> StreamUserPinFeedData
+  StreamUserPinFeedData - -> ParseUserPinFeedData
+}
+
+state LocalView_OverlayInformation {
+  state ARengineLoadData: AR Engine analyse the camera image\nmatch the most possible available result
+  state ARengineProcess: AR Engine procross the loaded overlay data in the camera image \nand display availble options
+  state ARengineDisplayOptions: AR Engine overlay available options for user query 
+  state ARengineDisplayData:  AR Engine overlay the available granulated results
+
+  ARengineLoadData - -> ARengineProcess
+  ARengineProcess - -> ARengineDisplayOptions
+  ARengineDisplayOptions - -> ARengineDisplayData: User select on options for requesting data display
+  note left of ARengineDisplayData: In this case the requesting data is\n the risk rate of \nthe camera targeted building
+}
+
+state GlobalView_OverlayInformation {
+  state MapLoadData: Map retreives the parsed overlay data \n for the device's current GPS location
+  state MapProcess: Map process and aggregate the loaded overlay data \nand display availble options
+  state MapDisplayOptions: Map display pin for user select to query
+  state MapDisplayData:  Map overlay the meta COVID data and available options\n for the deceive's current GPS location.
+  
+  MapLoadData - -> MapProcess
+  MapProcess - -> MapDisplayOptions
+  MapDisplayOptions- -> MapDisplayData: User click on options for requesting data display
+  note left of MapDisplayData: In this case the requesting data is\n the risk rate of \nthe current location
+}
+
+
+[*] - -> UserType: User open TravelAR
+state usersJoin <<join>>
+state uiJoin <<join>>
+AnonymousUser - -> usersJoin
+AuthenticatedUser - -> usersJoin
+usersJoin - -> CheckGPSPermission
+CameraPermissionNotGranted - -> UI_GlobalView
+CameraPermissionGranted - -> UIChoice
+UI_GlobalView - -> uiJoin
+UI_LocalView - -> uiJoin
+uiJoin - -> ObtainDeviceGeoData
+DeviceLocated - -> ObtainOverlayInformation
+state checkUIchoice <<choice>>
+ObtainOverlayInformation - -> checkUIchoice: User moves camera \ntowards a non-residensial building
+checkUIchoice - -> ARengineLoadData: UI = Local View
+checkUIchoice - -> MapLoadData: UI = Global View
+
+
+@enduml
+
+PlantUML version 1.2021.01beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

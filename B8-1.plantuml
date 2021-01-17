@@ -1,0 +1,133 @@
+@startuml BUS-B8-stateDia1
+
+skinparam Style strictuml
+' skinparam defaultTextAlignment center
+' skinparam SequenceMessageAlign direction
+skinparam linetype ortho 
+
+hide empty description
+' scale 1000 width
+
+title State Diagram - checking risk rate 
+' left to right direction
+
+state Login {
+  state UserType <<choice>>
+  state NewUser
+  state RegisteredUser
+  state Registeration
+  state RegChoice <<choice>>
+  state UserLogin: if user is return user, \nthis state will be passed\n unless authentication failed.
+  state Authentication
+  state AuthResult <<choice>>
+  
+  UserType --> RegisteredUser
+  RegisteredUser --> UserLogin
+  UserLogin --> Authentication
+  
+  UserType --> NewUser
+  NewUser --> Registeration
+  Registeration --> RegChoice
+  RegChoice --> RegisteredUser: completed
+  RegChoice --> AnonymousUser: not completed
+
+  Authentication --> AuthResult
+  AuthResult --> AuthenticatedUser : success 
+  AuthResult --> UserLogin: failed
+}
+
+state CheckPermission {
+    state GPSPermissionChoice <<choice>>
+    state CameraPermissionChoice <<choice>>
+    CheckGPSPermission --> GPSPermissionChoice
+    GPSPermissionChoice --> GPSPermissionNotGranted: not granted
+    GPSPermissionNotGranted --> [*]
+    GPSPermissionChoice --> GPSPermissionGranted: granted
+    GPSPermissionGranted --> CheckCameraPermission
+    CheckCameraPermission --> CameraPermissionChoice
+    CameraPermissionChoice --> CameraPermissionNotGranted
+    CameraPermissionChoice --> CameraPermissionGranted
+}
+
+state SelectUI {
+  state UIChoice <<choice>>
+  state UI_LocalView: AR Engine activates\nuser observes screen with AR object
+  state UI_GlobalView: 2D Map interface\nuser observes a map\nhis current location as a dot with a directioal arrow
+  UIChoice --> UI_LocalView
+  UIChoice --> UI_GlobalView
+}
+
+
+state Positioning {
+    state ObtainDeviceGeoData: obtain Map data to position device current Geo Data
+    state ObtainDataResult  <<choice>>
+    state DeviceLocated: successfully located the device current GPS position
+    state DeviceNotFound: fail to located the device current GPS position
+    ' [*] --> ObtainDeviceGeoData
+    ObtainDeviceGeoData --> ObtainDataResult 
+    ObtainDataResult --> DeviceNotFound
+    DeviceNotFound --> ObtainDeviceGeoData
+    ObtainDataResult --> DeviceLocated
+    ObtainDataResult --> [*]: cannot locate the device poisiton, abort
+}
+
+state ObtainOverlayInformation {
+  [*] --> StreamCovidRelatedData
+  StreamCovidRelatedData --> ParseCovidRelatedData
+  ||
+  [*] --> StreamMapData
+  StreamMapData --> ParseMapData
+  ||
+  [*] --> StreamUserPinFeedData
+  StreamUserPinFeedData --> ParseUserPinFeedData
+}
+
+state LocalView_OverlayInformation {
+  state ARengineLoadData: AR Engine analyse the camera image\nmatch the most possible available result
+  state ARengineProcess: AR Engine procross the loaded overlay data in the camera image \nand display availble options
+  state ARengineDisplayOptions: AR Engine overlay available options for user query 
+  state ARengineDisplayData:  AR Engine overlay the available granulated results
+
+  ARengineLoadData --> ARengineProcess
+  ARengineProcess --> ARengineDisplayOptions
+  ARengineDisplayOptions --> ARengineDisplayData: User select on options for requesting data display
+  note left of ARengineDisplayData: In this case the requesting data is\n the risk rate of \nthe camera targeted building
+}
+
+state GlobalView_OverlayInformation {
+  state MapLoadData: Map retreives the parsed overlay data \n for the device's current GPS location
+  state MapProcess: Map process and aggregate the loaded overlay data \nand display availble options
+  state MapDisplayOptions: Map display pin for user select to query
+  state MapDisplayData:  Map overlay the meta COVID data and available options\n for the deceive's current GPS location.
+  
+  MapLoadData --> MapProcess
+  MapProcess --> MapDisplayOptions
+  MapDisplayOptions--> MapDisplayData: User click on options for requesting data display
+  note left of MapDisplayData: In this case the requesting data is\n the risk rate of \nthe current location
+}
+
+
+[*] --> UserType: User open TravelAR
+state usersJoin <<join>>
+state uiJoin <<join>>
+AnonymousUser --> usersJoin
+AuthenticatedUser --> usersJoin
+usersJoin --> CheckGPSPermission
+CameraPermissionNotGranted --> UI_GlobalView
+CameraPermissionGranted --> UIChoice
+UI_GlobalView --> uiJoin
+UI_LocalView --> uiJoin
+uiJoin --> ObtainDeviceGeoData
+DeviceLocated --> ObtainOverlayInformation
+state checkUIchoice <<choice>>
+ObtainOverlayInformation --> checkUIchoice: User moves camera \ntowards a non-residensial building
+checkUIchoice --> ARengineLoadData: UI = Local View
+checkUIchoice --> MapLoadData: UI = Global View
+' UICond
+
+
+' UserType --> entry1: old user
+' oldNewUser --> entry2: new user
+' exitA --> Foo
+' Foo1 --> entry2
+@enduml

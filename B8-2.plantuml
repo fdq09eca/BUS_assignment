@@ -1,0 +1,230 @@
+@startuml BUS-B8-stateDia1
+
+skinparam Style strictuml
+' skinparam defaultTextAlignment center
+' skinparam SequenceMessageAlign direction
+skinparam linetype ortho 
+
+hide empty description
+' scale 1000 width
+
+title State Diagram - safe route navigation 
+' left to right direction
+
+state Login {
+  state UserType <<choice>>
+  state NewUser
+  state RegisteredUser
+  state Registeration
+  state RegChoice <<choice>>
+  state UserLogin: if user is return user, \nthis state will be passed\n unless authentication failed.
+  state Authentication
+  state AuthResult <<choice>>
+  
+  UserType --> RegisteredUser
+  RegisteredUser --> UserLogin
+  UserLogin --> Authentication
+  
+  UserType --> NewUser
+  NewUser --> Registeration
+  Registeration --> RegChoice
+  RegChoice --> RegisteredUser: completed
+  RegChoice --> AnonymousUser: not completed
+
+  Authentication --> AuthResult
+  AuthResult --> AuthenticatedUser : success 
+  AuthResult --> UserLogin: failed
+}
+
+state CheckPermission {
+    state GPSPermissionChoice <<choice>>
+    state CameraPermissionChoice <<choice>>
+    CheckGPSPermission --> GPSPermissionChoice
+    GPSPermissionChoice --> GPSPermissionNotGranted: not granted
+    GPSPermissionNotGranted --> [*]
+    GPSPermissionChoice --> GPSPermissionGranted: granted
+    GPSPermissionGranted --> CheckCameraPermission
+    CheckCameraPermission --> CameraPermissionChoice
+    CameraPermissionChoice --> CameraPermissionNotGranted
+    CameraPermissionChoice --> CameraPermissionGranted
+}
+
+state SelectUI {
+  state UIChoice <<choice>>
+  state UI_LocalView: AR Engine activates\nuser observes screen with AR object
+  state UI_GlobalView: 2D Map interface\nuser observes a map\nhis current location as a dot with a directioal arrow
+  UIChoice --> UI_LocalView
+  UIChoice --> UI_GlobalView
+}
+
+
+state Positioning {
+    state ObtainDeviceGeoData: obtain Map data to position device current Geo Data
+    state ObtainDataResult  <<choice>>
+    state DeviceLocated: successfully located the device current GPS position
+    state DeviceNotFound: fail to located the device current GPS position
+    ' [*] --> ObtainDeviceGeoData
+    ObtainDeviceGeoData --> ObtainDataResult 
+    ObtainDataResult --> DeviceNotFound
+    DeviceNotFound --> ObtainDeviceGeoData
+    ObtainDataResult --> DeviceLocated
+    ObtainDataResult --> [*]: cannot locate the device poisiton, abort
+}
+
+state ObtainOverlayInformation {
+  [*] --> StreamCovidRelatedData
+  StreamCovidRelatedData --> ParseCovidRelatedData
+  ||
+  [*] --> StreamMapData
+  StreamMapData --> ParseMapData
+  ||
+  [*] --> StreamUserPinFeedData
+  StreamUserPinFeedData --> ParseUserPinFeedData
+}
+
+state LocalView_OverlayInformation {
+  state ARengineLoadData: AR Engine analyse the camera image\nmatch the most possible available result
+  state ARengineProcess: AR Engine procross the loaded overlay data in the camera image \nand display availble options
+  state ARengineDisplayOptions: AR Engine overlay available options for user query 
+
+  ARengineLoadData --> ARengineProcess
+  ARengineProcess --> ARengineDisplayOptions
+}
+
+state GlobalView_OverlayInformation {
+  state MapLoadData: Map retreives the parsed overlay data \n for the device's current GPS location
+  state MapProcess: Map process and aggregate the loaded overlay data \nand display availble options
+  state MapDisplayOptions: Map display pin for user select to query
+  
+  MapLoadData --> MapProcess
+  MapProcess --> MapDisplayOptions
+}
+
+state Searching {
+  state ObtainMapData
+  state RetreivesDestinationGeoData: If destination is not found:\n most possible location is used
+  
+  ObtainMapData --> SearchDestination
+  SearchDestination --> RetreivesDestinationGeoData
+}
+
+
+
+state ObtainDestinationOverlayInformation {
+  [*] --> StreamDestinationCovidRelatedData
+  StreamDestinationCovidRelatedData --> ParseDestinationCovidRelatedData
+  ||
+  [*] --> StreamDestinationMapData
+  StreamDestinationMapData --> ParseDestinationMapData
+  ||
+  [*] --> StreamDestinationUserPinFeedData
+  StreamDestinationUserPinFeedData --> ParseDestinationUserPinFeedData
+}
+
+state Destination_OverlayInformation {
+  state DestinationLoadData: retreives the parsed overlay data \n for the device's current GPS location
+  state DestinationProcess: process and aggregate the loaded overlay data \nand display availble options
+  state DestinationDisplayOptions: Map display route options, including Navigation, for user select or query
+  
+  DestinationLoadData --> DestinationProcess
+  DestinationProcess --> DestinationDisplayOptions
+}
+
+state Routing {
+  state FormRoutes
+  state RouteAssessment
+  state suggestRoutes
+  
+  FormRoutes --> RouteAssessment
+  RouteAssessment --> SafeRouteSelection
+  SafeRouteSelection --> suggestRoutes
+}
+
+state Navigation {
+  [*] --> TrackCurrentLoction
+  ||
+  [*] --> StreamNextStopCovidRelatedData
+  StreamNextStopCovidRelatedData --> ParseNextStopCovidRelatedData
+  ||
+  [*] --> StreamNextStopMapData
+  StreamNextStopMapData --> ParseNextStopMapData
+  ||
+  [*] --> FormNextPossibleRoute
+  FormNextPossibleRoute --> RiskRateEvaluation
+  RiskRateEvaluation --> FromSafestRoute
+  ||
+  [*] --> DisplayDirectionalArrows  
+}
+
+state Monitoring {
+  state RecordNavigatedJourney: record navigated journey to TravelAR Database
+  state dayRemain <<choice>>
+  state MonitorRecordedJourneyRiskLevel: constantly check the recorded journey risk level
+  state overThreshold <<choice>>
+
+  RecordNavigatedJourney --> MonitorRecordedJourneyRiskLevel
+  MonitorRecordedJourneyRiskLevel --> dayRemain
+  MonitorRecordedJourneyRiskLevel --> overThreshold: check if monitored journey risk rate over threhold 
+  overThreshold --> dayRemain: below threshold
+  dayRemain --> MonitorRecordedJourneyRiskLevel: if monitoring not yet N days
+  dayRemain --> [*]: monitoring complete
+}
+
+state Notification {
+  state ObtainUserLocation
+  state ObtainUsersurroundingMapData
+  state ObtainUserClosestTestCenter
+  state NotifyUserForTest: Send user email
+  
+  ObtainUserLocation --> ObtainUsersurroundingMapData
+  ObtainUsersurroundingMapData --> ObtainUserClosestTestCenter
+  ObtainUserClosestTestCenter --> NotifyUserForTest
+}
+
+[*] --> UserType: User open TravelAR
+state usersJoin <<join>>
+state uiJoin <<join>>
+AnonymousUser --> usersJoin
+AuthenticatedUser --> usersJoin
+usersJoin --> CheckGPSPermission
+CameraPermissionNotGranted --> UI_GlobalView
+CameraPermissionGranted --> UIChoice
+UI_GlobalView --> uiJoin
+UI_LocalView --> uiJoin
+uiJoin --> ObtainDeviceGeoData
+DeviceLocated --> ObtainOverlayInformation
+state checkUIchoice <<choice>>
+ObtainOverlayInformation --> checkUIchoice: User want to be navigated to a destination
+checkUIchoice --> ARengineLoadData: UI = Local View
+checkUIchoice --> MapLoadData: UI = Global View
+state searchJoin <<join>>
+ARengineDisplayOptions --> searchJoin: user searched for a destination
+MapDisplayOptions --> searchJoin: user searched for a destination
+searchJoin --> ObtainMapData
+RetreivesDestinationGeoData --> ObtainDestinationOverlayInformation
+state checkCurrentUI <<choice>>
+ObtainDestinationOverlayInformation -->checkCurrentUI
+checkCurrentUI --> switchToGlobal: current UI = Local View
+switchToGlobal --> DestinationLoadData
+checkCurrentUI --> DestinationLoadData: current UI = Global View
+DestinationDisplayOptions --> FormRoutes: user requests to be navigated \nto the destination
+suggestRoutes --> DecideRoute
+DecideRoute --> Navigation
+Navigation --> NavigationCompleted
+state checkUserLogin <<choice>>
+NavigationCompleted --> checkUserLogin: check if user is Logged In
+checkUserLogin --> [*]: User is not Logged in
+state checkUserPrivacyAgreement <<choice>>
+checkUserLogin --> checkUserPrivacyAgreement: User is Logged in
+checkUserPrivacyAgreement --> Monitoring: User\n agrees to\n TravelAR Privacy Agreement
+checkUserPrivacyAgreement --> [*]: User\n does not agree to\n TravelAR Privacy Agreement
+overThreshold -> ObtainUserLocation: over threshold
+NotifyUserForTest --> [*]: notification completed
+' UICond
+
+
+' UserType --> entry1: old user
+' oldNewUser --> entry2: new user
+' exitA --> Foo
+' Foo1 --> entry2
+@enduml

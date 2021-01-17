@@ -1,4 +1,4 @@
-@startuml BUS-B8-stateDia1
+@startuml BUS-B8-stateDia2
 
 skinparam Style strictuml
 ' skinparam defaultTextAlignment center

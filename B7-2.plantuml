@@ -3,7 +3,7 @@ skinparam Style strictuml
 skinparam SequenceMessageAlignment center
 
 title
-    Risk Rating overlay
+    Sequence Diagram - Risk Rating overlay
 end title
 
 hide unlinked

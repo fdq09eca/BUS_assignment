@@ -4,7 +4,7 @@ skinparam Style strictuml
 skinparam SequenceMessageAlignment center
 
 title
-    Safe route navigation 
+    Sequence Diagram - Safe route navigation 
 end title
 hide unlinked
 
